@@ -146,24 +146,26 @@ namespace MoreNet.Foundation
         }
 
         /// <summary>
-        /// Adapt and to set <see cref="UriBuilder.Password"/>.
-        /// </summary>
-        /// <param name="password">Password.</param>
-        /// <returns>Current <see cref="FluentUriBuilder"/>.</returns>
-        public FluentUriBuilder SetPassword(string password)
-        {
-            _uriBuilder.Password = password;
-            return this;
-        }
-
-        /// <summary>
         /// Adapt and to set <see cref="UriBuilder.UserName"/>.
         /// </summary>
         /// <param name="userName">User name.</param>
         /// <returns>Current <see cref="FluentUriBuilder"/>.</returns>
-        public FluentUriBuilder SetUserName(string userName)
+        public FluentUriBuilder SetUser(string userName)
         {
             _uriBuilder.UserName = userName;
+            return this;
+        }
+
+        /// <summary>
+        /// Adapt and to set <see cref="UriBuilder.UserName"/> and <see cref="UriBuilder.Password"/>.
+        /// </summary>
+        /// <param name="userName">User name.</param>
+        /// <param name="password">Password.</param>
+        /// <returns>Current <see cref="FluentUriBuilder"/>.</returns>
+        public FluentUriBuilder SetUser(string userName, string password)
+        {
+            _uriBuilder.UserName = userName;
+            _uriBuilder.Password = password;
             return this;
         }
 
