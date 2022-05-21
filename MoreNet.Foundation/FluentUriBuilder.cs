@@ -31,7 +31,7 @@ namespace MoreNet.Foundation
             get
             {
                 Commit();
-                return _uriBuilder?.Uri;
+                return _uriBuilder.Uri;
             }
         }
 
