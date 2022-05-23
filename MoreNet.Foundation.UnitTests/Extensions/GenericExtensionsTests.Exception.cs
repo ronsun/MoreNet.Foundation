@@ -1,4 +1,5 @@
 ﻿using FluentAssertions;
+using MoreNet.Foundation.Extensions;
 using NSubstitute;
 using NUnit.Framework;
 using System;

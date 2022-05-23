@@ -1,6 +1,7 @@
 ﻿using NSubstitute;
 using NUnit.Framework;
 using System.Collections;
+using MoreNet.Foundation.Extensions;
 
 namespace MoreNet.Foundation.Assertion.Tests
 {
