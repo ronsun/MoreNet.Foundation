@@ -18,7 +18,7 @@ namespace MoreNet.Foundation.Assertion.Tests
             var stubArgumentName = nameof(stubValue);
 
             // act
-            Action action = () => stubValue.ShouldNotEmpty(stubArgumentName);
+            Action action = () => stubValue.ShouldNotNull(stubArgumentName);
 
             // assert
             action.Should().Throw<ArgumentNullException>().WithParameterName(stubArgumentName);
@@ -59,6 +59,20 @@ namespace MoreNet.Foundation.Assertion.Tests
 
             IEnumerable mockedEnumerable = Substitute.For<IEnumerable>();
             yield return new TestCaseData(mockedEnumerable);
+        }
+
+        [Test()]
+        public void ShouldBeDefinedTest_InputInvalid_ThrowExpectedException()
+        {
+            // arrange
+            var stubValue = (FakeEnum)(-1);
+            var stubArgumentName = nameof(stubValue);
+
+            // act
+            Action action = () => stubValue.ShouldBeDefined(stubArgumentName);
+
+            // assert
+            action.Should().Throw<ArgumentOutOfRangeException>().WithParameterName(stubArgumentName);
         }
     }
 }

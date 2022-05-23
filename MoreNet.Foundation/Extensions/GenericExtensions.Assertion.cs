@@ -66,5 +66,21 @@ namespace MoreNet.Foundation.Extensions
                 }
             }
         }
+
+        /// <summary>
+        /// Assert argument should be defined enum.
+        /// Throw exception if argement not defined in current enum type.
+        /// </summary>
+        /// <typeparam name="TEnum">Type of enum.</typeparam>
+        /// <param name="arg">Argument.</param>
+        /// <param name="argName">Argument name.</param>
+        public static void ShouldBeDefined<TEnum>(this TEnum arg, string argName)
+            where TEnum : Enum
+        {
+            if (Enum.IsDefined(arg.GetType(), arg) == false)
+            {
+                throw new ArgumentOutOfRangeException(argName);
+            }
+        }
     }
 }

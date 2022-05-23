@@ -1,13 +1,18 @@
-﻿using NSubstitute;
+﻿using MoreNet.Foundation.Extensions;
+using NSubstitute;
 using NUnit.Framework;
 using System.Collections;
-using MoreNet.Foundation.Extensions;
 
 namespace MoreNet.Foundation.Assertion.Tests
 {
     [TestFixture()]
     public partial class GenericExtensionsTests
     {
+        private enum FakeEnum
+        {
+            A = 1,
+        }
+
         [Test()]
         [TestCaseSource(nameof(ShouldNotNullTest_InputEmpty_Pass_TestCases))]
         public void ShouldNotNullTest_InputEmpty_Pass<T>(T stubValue)
@@ -58,6 +63,20 @@ namespace MoreNet.Foundation.Assertion.Tests
             IEnumerable mockedEnumerable = Substitute.For<IEnumerable>();
             mockedEnumerable.GetEnumerator().Returns(mockedEnumerator);
             yield return new TestCaseData(mockedEnumerable);
+        }
+
+        [Test()]
+        public void ShouldBeDefinedTest_InputValid_Pass()
+        {
+            // arrange
+            var stubValue = FakeEnum.A;
+            var stubArgumentName = nameof(stubValue);
+
+            // act
+            stubValue.ShouldBeDefined(stubArgumentName);
+
+            // assert
+            Assert.Pass();
         }
     }
 }
