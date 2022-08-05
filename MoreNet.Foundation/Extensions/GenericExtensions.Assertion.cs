@@ -1,13 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Linq;
-using System.Linq.Expressions;
 
 namespace MoreNet.Foundation.Extensions
 {
-    /// <summary>
-    /// Extension methods for all generic types.
-    /// </summary>
+    /// <inheritdoc cref="GenericExtensions"/>
     public static partial class GenericExtensions
     {
         /// <summary>
