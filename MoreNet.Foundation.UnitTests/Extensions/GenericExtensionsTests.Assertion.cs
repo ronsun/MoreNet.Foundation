@@ -1,7 +1,7 @@
 ﻿using MoreNet.Foundation.Extensions;
-using NSubstitute;
 using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace MoreNet.Foundation.Assertion.Tests
 {
@@ -31,9 +31,7 @@ namespace MoreNet.Foundation.Assertion.Tests
         public static IEnumerable ShouldNotNullTest_InputEmpty_Pass_TestCases()
         {
             yield return new TestCaseData("");
-
-            IEnumerable mockedEnumerable = Substitute.For<IEnumerable>();
-            yield return new TestCaseData(mockedEnumerable);
+            yield return new TestCaseData(new List<object>());
         }
 
         [Test()]
@@ -56,13 +54,8 @@ namespace MoreNet.Foundation.Assertion.Tests
             yield return new TestCaseData(" ");
             yield return new TestCaseData("a");
 
-            int i = 0;
-            IEnumerator mockedEnumerator = Substitute.For<IEnumerator>();
-            mockedEnumerator.MoveNext().Returns(i++ < 1);
-            mockedEnumerator.Current.Returns(new object());
-            IEnumerable mockedEnumerable = Substitute.For<IEnumerable>();
-            mockedEnumerable.GetEnumerator().Returns(mockedEnumerator);
-            yield return new TestCaseData(mockedEnumerable);
+            var list = new List<object> { new object() };
+            yield return new TestCaseData(list);
         }
 
         [Test()]

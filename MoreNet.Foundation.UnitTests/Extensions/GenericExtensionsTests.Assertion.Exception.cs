@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
 using MoreNet.Foundation.Extensions;
-using NSubstitute;
 using NUnit.Framework;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace MoreNet.Foundation.Assertion.Tests
 {
@@ -56,9 +56,7 @@ namespace MoreNet.Foundation.Assertion.Tests
         public static IEnumerable ShouldNotEmptyTest_InputEmpty_ThrowExpectedException_TestCases()
         {
             yield return new TestCaseData(string.Empty);
-
-            IEnumerable mockedEnumerable = Substitute.For<IEnumerable>();
-            yield return new TestCaseData(mockedEnumerable);
+            yield return new TestCaseData(new List<object>());
         }
 
         [Test()]
