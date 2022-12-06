@@ -1,12 +1,11 @@
-﻿using MoreNet.Foundation.Extensions;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace MoreNet.Foundation.Assertion.Tests
+namespace MoreNet.Foundation.Tests
 {
     [TestFixture()]
-    public partial class GenericExtensionsTests
+    public partial class ArgumentTests
     {
         private enum FakeEnum
         {
@@ -40,10 +39,10 @@ namespace MoreNet.Foundation.Assertion.Tests
             where T : class
         {
             // arrange
-            var stubArgumentName = nameof(stubValue);
+            var stubName = nameof(stubValue);
 
             // act
-            stubValue.ShouldNotEmpty(stubArgumentName);
+            Argument.ShouldNotEmpty(stubValue, stubName);
 
             // assert
             Assert.Pass();

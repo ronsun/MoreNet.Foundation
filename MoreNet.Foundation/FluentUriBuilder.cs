@@ -1,5 +1,4 @@
-﻿using MoreNet.Foundation.Extensions;
-using System;
+﻿using System;
 using System.Collections.Specialized;
 using System.Globalization;
 using System.Web;
@@ -89,7 +88,7 @@ namespace MoreNet.Foundation
         /// </remarks>
         public FluentUriBuilder AddQuery(string key, params string[] values)
         {
-            values.ShouldNotEmpty(nameof(values));
+            Argument.ShouldNotEmpty(values, nameof(values));
 
             foreach (var val in values)
             {
@@ -113,7 +112,7 @@ namespace MoreNet.Foundation
         public FluentUriBuilder AddQuery<TEnum, TUnderlying>(string key, params TEnum[] values)
             where TEnum : Enum
         {
-            values.ShouldNotEmpty(nameof(values));
+            Argument.ShouldNotEmpty(values, nameof(values));
 
             foreach (var val in values)
             {

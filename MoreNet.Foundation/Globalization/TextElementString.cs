@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
@@ -54,10 +53,7 @@ namespace MoreNet.Foundation.Globalization
         /// <returns>Contains.</returns>
         public bool Contains(string value)
         {
-            if (value == null)
-            {
-                throw new ArgumentNullException(nameof(value));
-            }
+            Argument.ShouldNotNull(value, nameof(value));
 
             if (value.Length == 0)
             {

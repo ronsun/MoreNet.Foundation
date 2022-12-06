@@ -167,7 +167,7 @@ namespace MoreNet.Foundation.Globalization.Tests
             yield return new TestCaseData("abc", 1, "abc".Substring(1));
             yield return new TestCaseData("abc", 2, "abc".Substring(2));
             yield return new TestCaseData("abc", 3, "abc".Substring(3));
-
+            
             // mixed alphabets and grapheme in any normalization
             yield return new TestCaseData(
                 "a \u00E9 \u0069\u0301 \u00F3 -" /* a é(NormalizationForm.FormC) í(NormalizationForm.FormD/FormKD) ó(NormalizationForm.FormKC) - */,

@@ -5,7 +5,7 @@ namespace MoreNet.Foundation.Extensions
     /// <summary>
     /// Extension methods for all generic types.
     /// </summary>
-    public static partial class GenericExtensions
+    public static class GenericExtensions
     {
         /// <summary>
         /// Indicate is the <paramref name="item"/> in the <paramref name="pool"/>.
