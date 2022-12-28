@@ -25,11 +25,6 @@ namespace MoreNet.Foundation.Globalization
             _underlyingTextElements = GenerateTextElements(value);
         }
 
-        private TextElementString(List<string> value)
-        {
-            _underlyingTextElements = value;
-        }
-
         /// <summary>
         /// Gets the <see cref="string"/> object at a specified position in the current <see cref="TextElementString"/> object.
         /// </summary>
@@ -104,42 +99,6 @@ namespace MoreNet.Foundation.Globalization
 
             _underlyingTextElements = newUnderlyingTextElements;
             return this;
-        }
-
-        /// <summary>
-        /// Retrieves a subset of text element from this instance. The subset of text element starts at a specified
-        /// text element position and continues to the end of the string.
-        /// </summary>
-        /// <param name="startIndex">The zero-based starting text element position of a subset of text element in this instance.</param>
-        /// <returns>
-        /// A new instance of <see cref="TextElementString"/> contains subset of text element,
-        /// or empty if <paramref name="startIndex"/> is equal to the length of this instance.
-        /// </returns>
-        public TextElementString SubTextElementString(int startIndex)
-        {
-            return SubTextElementString(startIndex, _underlyingTextElements.Count - startIndex);
-        }
-
-        /// <summary>
-        /// Retrieves a subset of text element from this instance. The subset of text element starts at a specified
-        /// text element position and has a specified length.
-        /// </summary>
-        /// <param name="startIndex">The zero-based starting text element position of a subset of text element in this instance.</param>
-        /// <param name="length">The number of text elements in the <see cref="TextElementString"/>.</param>
-        /// <returns>
-        /// A new instance of <see cref="TextElementString"/> contains subset of text element,
-        /// or empty if <paramref name="startIndex"/> is equal to the length of this instance.
-        /// </returns>
-        public TextElementString SubTextElementString(int startIndex, int length)
-        {
-            var newTextElements = new List<string>();
-            int i = startIndex - 1;
-            while (++i < startIndex + length)
-            {
-                newTextElements.Add(_underlyingTextElements[i]);
-            }
-
-            return new TextElementString(newTextElements);
         }
 
         /// <summary>
