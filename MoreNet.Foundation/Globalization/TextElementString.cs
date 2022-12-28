@@ -60,7 +60,7 @@ namespace MoreNet.Foundation.Globalization
                 return true;
             }
 
-            foreach (var matching in KMPMatching(value))
+            foreach (var matching in Matche(value))
             {
                 if (matching.MatchFrom.HasValue)
                 {
@@ -85,7 +85,7 @@ namespace MoreNet.Foundation.Globalization
         {
             var newUnderlyingTextElements = new List<string>();
             int i = 0;
-            foreach (var matching in KMPMatching(oldValue))
+            foreach (var matching in Matche(oldValue))
             {
                 int matchFrom = matching.MatchFrom ?? _underlyingTextElements.Count;
                 while (i < matchFrom)
@@ -218,7 +218,8 @@ namespace MoreNet.Foundation.Globalization
             return pattern;
         }
 
-        private IEnumerable<(int? MatchFrom, int Count)> KMPMatching(string pattern)
+        // Implement KMP algorithm.
+        private IEnumerable<(int? MatchFrom, int Count)> Matche(string pattern)
         {
             var patternTextElements = GenerateTextElements(pattern);
             var next = GenerateNext(patternTextElements.ToArray());
