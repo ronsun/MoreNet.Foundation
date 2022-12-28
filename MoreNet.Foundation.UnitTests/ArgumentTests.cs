@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using NSubstitute;
+using NUnit.Framework;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 
@@ -21,7 +23,7 @@ namespace MoreNet.Foundation.Tests
             var stubArgumentName = nameof(stubValue);
 
             // act
-            stubValue.ShouldNotNull(stubArgumentName);
+            Argument.ShouldNotNull(stubValue, stubArgumentName);
 
             // assert
             Assert.Pass();
@@ -65,7 +67,47 @@ namespace MoreNet.Foundation.Tests
             var stubArgumentName = nameof(stubValue);
 
             // act
-            stubValue.ShouldBeDefined(stubArgumentName);
+            Argument.ShouldBeDefined(stubValue, stubArgumentName);
+
+            // assert
+            Assert.Pass();
+        }
+
+        [Test()]
+        // both min and max included
+        [TestCase(0, 0, 2)]
+        [TestCase(1, 0, 2)]
+        [TestCase(2, 0, 2)]
+        // min == max
+        [TestCase(0, 0, 0)]
+        public void ShouldInRangeTest_InputValid_Pass(
+            int stubValue,
+            int stubMin,
+            int stubMax)
+        {
+            // arrange
+            var stubArgumentName = nameof(stubValue);
+
+            // act
+            Argument.ShouldInRange<int>(stubValue, stubMin, stubMax, stubArgumentName);
+
+            // assert
+            Assert.Pass();
+        }
+
+        public void ShouldInRangeTest_InputComparable_Pass()
+        {
+            // arrange
+            var mockedValue = Substitute.For<IComparable>();
+            var mockedMin = Substitute.For<IComparable>();
+            var mockedMax = Substitute.For<IComparable>();
+            mockedValue.CompareTo(mockedMin).Returns(1);
+            mockedValue.CompareTo(mockedMax).Returns(-1);
+
+            var stubArgumentName = nameof(mockedValue);
+
+            // act
+            Argument.ShouldInRange(mockedValue, mockedMin, mockedMax, stubArgumentName);
 
             // assert
             Assert.Pass();

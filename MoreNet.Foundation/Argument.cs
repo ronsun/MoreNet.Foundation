@@ -6,6 +6,10 @@ namespace MoreNet.Foundation
     /// <summary>
     /// Assert argument.
     /// </summary>
+    /// <remarks>
+    /// The reason why we use general static methods instead of extension methods is
+    /// it provide better readibility.
+    /// </remarks>
     public static class Argument
     {
         /// <summary>
@@ -19,7 +23,7 @@ namespace MoreNet.Foundation
         /// Should not be null for <see cref="Nullable{T}"/>
         /// Should not be empty for <see cref="IEnumerable"/>.
         /// </remarks>
-        public static void ShouldNotNull<T>(this T value, string name)
+        public static void ShouldNotNull<T>(T value, string name)
             where T : class
         {
             if (value == null)
@@ -70,10 +74,27 @@ namespace MoreNet.Foundation
         /// <typeparam name="TEnum">Type of enum.</typeparam>
         /// <param name="value">Argument value.</param>
         /// <param name="name">Parameter name.</param>
-        public static void ShouldBeDefined<TEnum>(this TEnum value, string name)
+        public static void ShouldBeDefined<TEnum>(TEnum value, string name)
             where TEnum : Enum
         {
             if (Enum.IsDefined(value.GetType(), value) == false)
+            {
+                throw new ArgumentOutOfRangeException(name);
+            }
+        }
+
+        /// <summary>
+        /// Assert argument should in the range of <paramref name="min"/> to <paramref name="max"/> (both included).
+        /// </summary>
+        /// <typeparam name="T">The comparable type which implement <see cref="IComparable"/>.</typeparam>
+        /// <param name="value">Argument value.</param>
+        /// <param name="min">Min.</param>
+        /// <param name="max">Max.</param>
+        /// <param name="name">Parameter name.</param>
+        public static void ShouldInRange<T>(T value, T min, T max, string name)
+            where T : IComparable
+        {
+            if (value.CompareTo(min) < 0 || value.CompareTo(max) > 0)
             {
                 throw new ArgumentOutOfRangeException(name);
             }

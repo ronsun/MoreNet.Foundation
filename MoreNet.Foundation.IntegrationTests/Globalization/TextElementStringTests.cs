@@ -138,7 +138,5 @@ namespace MoreNet.Foundation.Globalization.Tests
                 1,
                 "a \u00E9 \u0069\u0301 \u00F3 ");
         }
-        // TODO: testing, expected as string instead of self-designed result if appropriate
-        //       ex: actual.Should().Be("".Contains(""));
     }
 }

@@ -48,7 +48,25 @@ namespace MoreNet.Foundation.Tests
             var stubArgumentName = nameof(stubValue);
 
             // act
-            Action action = () => stubValue.ShouldBeDefined(stubArgumentName);
+            Action action = () => Argument.ShouldBeDefined(stubValue, stubArgumentName);
+
+            // assert
+            action.Should().Throw<ArgumentOutOfRangeException>().WithParameterName(stubArgumentName);
+        }
+
+        [Test()]
+        [TestCase(-1, 0, 1)]
+        [TestCase(2, 0, 1)]
+        public void ShouldInRangeTest_InputInvalid_ThrowExpectedException(
+            int stubValue,
+            int stubMin,
+            int stubMax)
+        {
+            // arrange
+            var stubArgumentName = nameof(stubValue);
+
+            // act
+            Action action = () => Argument.ShouldInRange<int>(stubValue, stubMin, stubMax, stubArgumentName);
 
             // assert
             action.Should().Throw<ArgumentOutOfRangeException>().WithParameterName(stubArgumentName);

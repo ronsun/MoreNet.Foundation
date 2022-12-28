@@ -5,9 +5,6 @@ using System.Text;
 
 namespace MoreNet.Foundation.Globalization
 {
-    // TODO: exception design
-    // TODO: testing, expected as string instead of self-designed result if appropriate
-    //       ex: actual.Should().Be("".Contains(""));
     /// <summary>
     /// Wrapper for <see cref="TextElementEnumerator"/> and provide commonly used methods for problems about grapheme.
     /// Some of methods from <see cref="string"/> handle grapheme problems, we do not provide those methods.
@@ -78,6 +75,8 @@ namespace MoreNet.Foundation.Globalization
         /// </returns>
         public TextElementString Replace(string oldValue, string newValue)
         {
+            Argument.ShouldNotEmpty(oldValue, nameof(oldValue));
+
             var newUnderlyingTextElements = new List<string>();
             int i = 0;
             foreach (var matching in Matche(oldValue))
@@ -108,6 +107,8 @@ namespace MoreNet.Foundation.Globalization
         /// <returns>Current <see cref="TextElementString"/>.</returns>
         public TextElementString Remove(int startIndex)
         {
+            Argument.ShouldInRange(startIndex, 0, _underlyingTextElements.Count, nameof(startIndex));
+
             var count = _underlyingTextElements.Count - startIndex;
             Remove(startIndex, count);
             return this;
@@ -121,6 +122,8 @@ namespace MoreNet.Foundation.Globalization
         /// <returns>Current <see cref="TextElementString"/>.</returns>
         public TextElementString Remove(int startIndex, int count)
         {
+            Argument.ShouldInRange(startIndex, 0, _underlyingTextElements.Count, nameof(startIndex));
+
             _underlyingTextElements.RemoveRange(startIndex, count);
             return this;
         }
