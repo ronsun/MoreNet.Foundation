@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MoreNet.Foundation.Conventions;
+using System;
 using System.Linq;
 using System.Linq.Expressions;
 
@@ -28,6 +29,26 @@ namespace MoreNet.Foundation.Extensions
             }
 
             return source;
+        }
+
+        /// <summary>
+        /// Pagination.
+        /// </summary>
+        /// <typeparam name="T">The type of the elements of source.</typeparam>
+        /// <param name="source">An <see cref="IQueryable{T}"/> to filter.</param>
+        /// <param name="pageable"><see cref="IPageable"/>.</param>
+        /// <returns><see cref="IQueryable{T}"/> with pagination.</returns>
+        public static IQueryable<T> Paginate<T>(this IQueryable<T> source, IPageable pageable)
+        {
+            Argument.ShouldNotNull(pageable, nameof(pageable));
+            Argument.ShouldInRange(pageable.PageNumber, 0, int.MaxValue, nameof(pageable.PageNumber));
+            Argument.ShouldInRange(pageable.PageSize, 1, int.MaxValue, nameof(pageable.PageSize));
+
+            checked
+            {
+                int skipCount = (pageable.PageNumber - 1) * pageable.PageSize;
+                return source.Skip(skipCount).Take(pageable.PageSize);
+            }
         }
     }
 }
