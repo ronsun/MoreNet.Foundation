@@ -1,7 +1,7 @@
-﻿using MoreNet.Foundation.Conventions;
-using System;
+﻿using System;
 using System.Linq;
 using System.Linq.Expressions;
+using MoreNet.Foundation.Conventions;
 
 namespace MoreNet.Foundation.Extensions
 {
