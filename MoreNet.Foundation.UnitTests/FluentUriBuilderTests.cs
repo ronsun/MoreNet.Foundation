@@ -1,9 +1,8 @@
-﻿using MoreNet.Foundation;
-using FluentAssertions;
+﻿using FluentAssertions;
 using NUnit.Framework;
 using System;
-using System.Linq;
 using System.Collections;
+using System.Linq;
 
 namespace MoreNet.Foundation.Tests
 {

@@ -6,7 +6,7 @@ using MoreNet.Foundation.Conventions;
 namespace MoreNet.Foundation.Extensions
 {
     /// <summary>
-    /// Extensions for <see cref="IQueryable"/>.
+    /// Extensions for <see cref="IQueryable"/> and <see cref="IQueryable{T}"/>.
     /// </summary>
     public static class QueryableExtensions
     {
