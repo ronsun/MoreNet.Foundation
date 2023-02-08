@@ -22,7 +22,7 @@ namespace MoreNet.Foundation.Extensions.Tests
             Action action = () => stubIEnumerable.Chunk(stubSize);
 
             // assert
-            action.Should().Throw<ArgumentOutOfRangeException>();
+            action.Should().ThrowExactly<ArgumentOutOfRangeException>();
         }
 
         [Test()]
@@ -36,7 +36,7 @@ namespace MoreNet.Foundation.Extensions.Tests
             Action action = () => stubIEnumerable.Chunk(stubSize);
 
             // assert
-            action.Should().Throw<ArgumentNullException>();
+            action.Should().ThrowExactly<ArgumentNullException>();
         }
 #endif
     }

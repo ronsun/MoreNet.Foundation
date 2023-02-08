@@ -23,7 +23,7 @@ namespace MoreNet.Foundation.Extensions.Tests
             Action action = () => mockedQueryable.Paginate(stubIPageable);
 
             // assert
-            action.Should().Throw<OverflowException>();
+            action.Should().ThrowExactly<OverflowException>();
         }
 
         [Test()]
@@ -39,7 +39,7 @@ namespace MoreNet.Foundation.Extensions.Tests
             Action action = () => mockedQueryable.Paginate(stubIPageable);
 
             // assert
-            action.Should().Throw<ArgumentOutOfRangeException>();
+            action.Should().ThrowExactly<ArgumentOutOfRangeException>();
         }
 
         [Test()]
@@ -55,7 +55,7 @@ namespace MoreNet.Foundation.Extensions.Tests
             Action action = () => mockedQueryable.Paginate(stubIPageable);
 
             // assert
-            action.Should().Throw<ArgumentOutOfRangeException>();
+            action.Should().ThrowExactly<ArgumentOutOfRangeException>();
         }
     }
 }
