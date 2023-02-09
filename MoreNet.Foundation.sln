@@ -1,18 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32407.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreNet.Foundation", "MoreNet.Foundation\MoreNet.Foundation.csproj", "{4F110B4B-0793-4B27-AA7B-87649D63DEE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreNet.Foundation", "src\MoreNet.Foundation\MoreNet.Foundation.csproj", "{4F110B4B-0793-4B27-AA7B-87649D63DEE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreNet.Foundation.IntegrationTests", "MoreNet.Foundation.IntegrationTests\MoreNet.Foundation.IntegrationTests.csproj", "{9A60961A-F2C2-4C48-B40B-4D264361BDCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreNet.Foundation.IntegrationTests", "tests\MoreNet.Foundation.IntegrationTests\MoreNet.Foundation.IntegrationTests.csproj", "{9A60961A-F2C2-4C48-B40B-4D264361BDCE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreNet.Foundation.UnitTests", "MoreNet.Foundation.UnitTests\MoreNet.Foundation.UnitTests.csproj", "{8D399680-9E66-4ED7-A6D6-087631BB08E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoreNet.Foundation.UnitTests", "tests\MoreNet.Foundation.UnitTests\MoreNet.Foundation.UnitTests.csproj", "{8D399680-9E66-4ED7-A6D6-087631BB08E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{048D2D32-D916-4574-897D-444EF48A253D}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7F768F4-259C-4F2B-AB94-09DBD38F5719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{08063B7E-E637-43FA-9F9A-0F945896A0C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F110B4B-0793-4B27-AA7B-87649D63DEE8} = {B7F768F4-259C-4F2B-AB94-09DBD38F5719}
+		{9A60961A-F2C2-4C48-B40B-4D264361BDCE} = {08063B7E-E637-43FA-9F9A-0F945896A0C1}
+		{8D399680-9E66-4ED7-A6D6-087631BB08E8} = {08063B7E-E637-43FA-9F9A-0F945896A0C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2569F86D-B51D-405D-A3F3-F97D0917CB2D}

@@ -8,10 +8,11 @@
     <Version>1.0.0</Version>
     <Authors>Ron</Authors>
     <Company></Company>
-    <PackageIcon>..\icon.png</PackageIcon>
-    <PackageLicenseFile>..\LICENSE</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/ronsun/MoreNet.Foundation</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ronsun/MoreNet.Foundation</RepositoryUrl>
+    <DocumentationFile>obj\Debug\netstandard2.0\MoreNet.Foundation.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -30,11 +31,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\icon.png">
+    <None Include="..\..\icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-    <None Include="..\LICENSE">
+    <None Include="..\..\LICENSE">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
