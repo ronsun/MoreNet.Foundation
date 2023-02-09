@@ -1,0 +1,636 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: MoreNet.Foundation
+  name: MoreNet.Foundation
+  href: api/MoreNet.Foundation.html
+  commentId: N:MoreNet.Foundation
+  fullName: MoreNet.Foundation
+  nameWithType: MoreNet.Foundation
+- uid: MoreNet.Foundation.Argument
+  name: Argument
+  href: api/MoreNet.Foundation.Argument.html
+  commentId: T:MoreNet.Foundation.Argument
+  fullName: MoreNet.Foundation.Argument
+  nameWithType: Argument
+- uid: MoreNet.Foundation.Argument.ShouldBeDefined*
+  name: ShouldBeDefined
+  href: api/MoreNet.Foundation.Argument.html#MoreNet_Foundation_Argument_ShouldBeDefined_
+  commentId: Overload:MoreNet.Foundation.Argument.ShouldBeDefined
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Argument.ShouldBeDefined
+  nameWithType: Argument.ShouldBeDefined
+- uid: MoreNet.Foundation.Argument.ShouldBeDefined``1(``0,System.String)
+  name: ShouldBeDefined<TEnum>(TEnum, String)
+  href: api/MoreNet.Foundation.Argument.html#MoreNet_Foundation_Argument_ShouldBeDefined__1___0_System_String_
+  commentId: M:MoreNet.Foundation.Argument.ShouldBeDefined``1(``0,System.String)
+  name.vb: ShouldBeDefined(Of TEnum)(TEnum, String)
+  fullName: MoreNet.Foundation.Argument.ShouldBeDefined<TEnum>(TEnum, System.String)
+  fullName.vb: MoreNet.Foundation.Argument.ShouldBeDefined(Of TEnum)(TEnum, System.String)
+  nameWithType: Argument.ShouldBeDefined<TEnum>(TEnum, String)
+  nameWithType.vb: Argument.ShouldBeDefined(Of TEnum)(TEnum, String)
+- uid: MoreNet.Foundation.Argument.ShouldInRange*
+  name: ShouldInRange
+  href: api/MoreNet.Foundation.Argument.html#MoreNet_Foundation_Argument_ShouldInRange_
+  commentId: Overload:MoreNet.Foundation.Argument.ShouldInRange
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Argument.ShouldInRange
+  nameWithType: Argument.ShouldInRange
+- uid: MoreNet.Foundation.Argument.ShouldInRange``1(``0,``0,``0,System.String)
+  name: ShouldInRange<T>(T, T, T, String)
+  href: api/MoreNet.Foundation.Argument.html#MoreNet_Foundation_Argument_ShouldInRange__1___0___0___0_System_String_
+  commentId: M:MoreNet.Foundation.Argument.ShouldInRange``1(``0,``0,``0,System.String)
+  name.vb: ShouldInRange(Of T)(T, T, T, String)
+  fullName: MoreNet.Foundation.Argument.ShouldInRange<T>(T, T, T, System.String)
+  fullName.vb: MoreNet.Foundation.Argument.ShouldInRange(Of T)(T, T, T, System.String)
+  nameWithType: Argument.ShouldInRange<T>(T, T, T, String)
+  nameWithType.vb: Argument.ShouldInRange(Of T)(T, T, T, String)
+- uid: MoreNet.Foundation.Argument.ShouldNotEmpty*
+  name: ShouldNotEmpty
+  href: api/MoreNet.Foundation.Argument.html#MoreNet_Foundation_Argument_ShouldNotEmpty_
+  commentId: Overload:MoreNet.Foundation.Argument.ShouldNotEmpty
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Argument.ShouldNotEmpty
+  nameWithType: Argument.ShouldNotEmpty
+- uid: MoreNet.Foundation.Argument.ShouldNotEmpty``1(``0,System.String)
+  name: ShouldNotEmpty<T>(T, String)
+  href: api/MoreNet.Foundation.Argument.html#MoreNet_Foundation_Argument_ShouldNotEmpty__1___0_System_String_
+  commentId: M:MoreNet.Foundation.Argument.ShouldNotEmpty``1(``0,System.String)
+  name.vb: ShouldNotEmpty(Of T)(T, String)
+  fullName: MoreNet.Foundation.Argument.ShouldNotEmpty<T>(T, System.String)
+  fullName.vb: MoreNet.Foundation.Argument.ShouldNotEmpty(Of T)(T, System.String)
+  nameWithType: Argument.ShouldNotEmpty<T>(T, String)
+  nameWithType.vb: Argument.ShouldNotEmpty(Of T)(T, String)
+- uid: MoreNet.Foundation.Argument.ShouldNotNull*
+  name: ShouldNotNull
+  href: api/MoreNet.Foundation.Argument.html#MoreNet_Foundation_Argument_ShouldNotNull_
+  commentId: Overload:MoreNet.Foundation.Argument.ShouldNotNull
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Argument.ShouldNotNull
+  nameWithType: Argument.ShouldNotNull
+- uid: MoreNet.Foundation.Argument.ShouldNotNull``1(``0,System.String)
+  name: ShouldNotNull<T>(T, String)
+  href: api/MoreNet.Foundation.Argument.html#MoreNet_Foundation_Argument_ShouldNotNull__1___0_System_String_
+  commentId: M:MoreNet.Foundation.Argument.ShouldNotNull``1(``0,System.String)
+  name.vb: ShouldNotNull(Of T)(T, String)
+  fullName: MoreNet.Foundation.Argument.ShouldNotNull<T>(T, System.String)
+  fullName.vb: MoreNet.Foundation.Argument.ShouldNotNull(Of T)(T, System.String)
+  nameWithType: Argument.ShouldNotNull<T>(T, String)
+  nameWithType.vb: Argument.ShouldNotNull(Of T)(T, String)
+- uid: MoreNet.Foundation.Constants
+  name: MoreNet.Foundation.Constants
+  href: api/MoreNet.Foundation.Constants.html
+  commentId: N:MoreNet.Foundation.Constants
+  fullName: MoreNet.Foundation.Constants
+  nameWithType: MoreNet.Foundation.Constants
+- uid: MoreNet.Foundation.Constants.DecimalConstants
+  name: DecimalConstants
+  href: api/MoreNet.Foundation.Constants.DecimalConstants.html
+  commentId: T:MoreNet.Foundation.Constants.DecimalConstants
+  fullName: MoreNet.Foundation.Constants.DecimalConstants
+  nameWithType: DecimalConstants
+- uid: MoreNet.Foundation.Constants.DecimalConstants.Epsilon
+  name: Epsilon
+  href: api/MoreNet.Foundation.Constants.DecimalConstants.html#MoreNet_Foundation_Constants_DecimalConstants_Epsilon
+  commentId: F:MoreNet.Foundation.Constants.DecimalConstants.Epsilon
+  fullName: MoreNet.Foundation.Constants.DecimalConstants.Epsilon
+  nameWithType: DecimalConstants.Epsilon
+- uid: MoreNet.Foundation.Conventions
+  name: MoreNet.Foundation.Conventions
+  href: api/MoreNet.Foundation.Conventions.html
+  commentId: N:MoreNet.Foundation.Conventions
+  fullName: MoreNet.Foundation.Conventions
+  nameWithType: MoreNet.Foundation.Conventions
+- uid: MoreNet.Foundation.Conventions.IOrderable`1
+  name: IOrderable<T>
+  href: api/MoreNet.Foundation.Conventions.IOrderable-1.html
+  commentId: T:MoreNet.Foundation.Conventions.IOrderable`1
+  name.vb: IOrderable(Of T)
+  fullName: MoreNet.Foundation.Conventions.IOrderable<T>
+  fullName.vb: MoreNet.Foundation.Conventions.IOrderable(Of T)
+  nameWithType: IOrderable<T>
+  nameWithType.vb: IOrderable(Of T)
+- uid: MoreNet.Foundation.Conventions.IOrderable`1.OrderBy
+  name: OrderBy
+  href: api/MoreNet.Foundation.Conventions.IOrderable-1.html#MoreNet_Foundation_Conventions_IOrderable_1_OrderBy
+  commentId: P:MoreNet.Foundation.Conventions.IOrderable`1.OrderBy
+  fullName: MoreNet.Foundation.Conventions.IOrderable<T>.OrderBy
+  fullName.vb: MoreNet.Foundation.Conventions.IOrderable(Of T).OrderBy
+  nameWithType: IOrderable<T>.OrderBy
+  nameWithType.vb: IOrderable(Of T).OrderBy
+- uid: MoreNet.Foundation.Conventions.IOrderable`1.OrderBy*
+  name: OrderBy
+  href: api/MoreNet.Foundation.Conventions.IOrderable-1.html#MoreNet_Foundation_Conventions_IOrderable_1_OrderBy_
+  commentId: Overload:MoreNet.Foundation.Conventions.IOrderable`1.OrderBy
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Conventions.IOrderable<T>.OrderBy
+  fullName.vb: MoreNet.Foundation.Conventions.IOrderable(Of T).OrderBy
+  nameWithType: IOrderable<T>.OrderBy
+  nameWithType.vb: IOrderable(Of T).OrderBy
+- uid: MoreNet.Foundation.Conventions.IPageable
+  name: IPageable
+  href: api/MoreNet.Foundation.Conventions.IPageable.html
+  commentId: T:MoreNet.Foundation.Conventions.IPageable
+  fullName: MoreNet.Foundation.Conventions.IPageable
+  nameWithType: IPageable
+- uid: MoreNet.Foundation.Conventions.IPageable.PageNumber
+  name: PageNumber
+  href: api/MoreNet.Foundation.Conventions.IPageable.html#MoreNet_Foundation_Conventions_IPageable_PageNumber
+  commentId: P:MoreNet.Foundation.Conventions.IPageable.PageNumber
+  fullName: MoreNet.Foundation.Conventions.IPageable.PageNumber
+  nameWithType: IPageable.PageNumber
+- uid: MoreNet.Foundation.Conventions.IPageable.PageNumber*
+  name: PageNumber
+  href: api/MoreNet.Foundation.Conventions.IPageable.html#MoreNet_Foundation_Conventions_IPageable_PageNumber_
+  commentId: Overload:MoreNet.Foundation.Conventions.IPageable.PageNumber
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Conventions.IPageable.PageNumber
+  nameWithType: IPageable.PageNumber
+- uid: MoreNet.Foundation.Conventions.IPageable.PageSize
+  name: PageSize
+  href: api/MoreNet.Foundation.Conventions.IPageable.html#MoreNet_Foundation_Conventions_IPageable_PageSize
+  commentId: P:MoreNet.Foundation.Conventions.IPageable.PageSize
+  fullName: MoreNet.Foundation.Conventions.IPageable.PageSize
+  nameWithType: IPageable.PageSize
+- uid: MoreNet.Foundation.Conventions.IPageable.PageSize*
+  name: PageSize
+  href: api/MoreNet.Foundation.Conventions.IPageable.html#MoreNet_Foundation_Conventions_IPageable_PageSize_
+  commentId: Overload:MoreNet.Foundation.Conventions.IPageable.PageSize
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Conventions.IPageable.PageSize
+  nameWithType: IPageable.PageSize
+- uid: MoreNet.Foundation.Extensions
+  name: MoreNet.Foundation.Extensions
+  href: api/MoreNet.Foundation.Extensions.html
+  commentId: N:MoreNet.Foundation.Extensions
+  fullName: MoreNet.Foundation.Extensions
+  nameWithType: MoreNet.Foundation.Extensions
+- uid: MoreNet.Foundation.Extensions.EnumerableExtensions
+  name: EnumerableExtensions
+  href: api/MoreNet.Foundation.Extensions.EnumerableExtensions.html
+  commentId: T:MoreNet.Foundation.Extensions.EnumerableExtensions
+  fullName: MoreNet.Foundation.Extensions.EnumerableExtensions
+  nameWithType: EnumerableExtensions
+- uid: MoreNet.Foundation.Extensions.EnumerableExtensions.Chunk*
+  name: Chunk
+  href: api/MoreNet.Foundation.Extensions.EnumerableExtensions.html#MoreNet_Foundation_Extensions_EnumerableExtensions_Chunk_
+  commentId: Overload:MoreNet.Foundation.Extensions.EnumerableExtensions.Chunk
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.EnumerableExtensions.Chunk
+  nameWithType: EnumerableExtensions.Chunk
+- uid: MoreNet.Foundation.Extensions.EnumerableExtensions.Chunk``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name: Chunk<TSource>(IEnumerable<TSource>, Int32)
+  href: api/MoreNet.Foundation.Extensions.EnumerableExtensions.html#MoreNet_Foundation_Extensions_EnumerableExtensions_Chunk__1_System_Collections_Generic_IEnumerable___0__System_Int32_
+  commentId: M:MoreNet.Foundation.Extensions.EnumerableExtensions.Chunk``1(System.Collections.Generic.IEnumerable{``0},System.Int32)
+  name.vb: Chunk(Of TSource)(IEnumerable(Of TSource), Int32)
+  fullName: MoreNet.Foundation.Extensions.EnumerableExtensions.Chunk<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Int32)
+  fullName.vb: MoreNet.Foundation.Extensions.EnumerableExtensions.Chunk(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Int32)
+  nameWithType: EnumerableExtensions.Chunk<TSource>(IEnumerable<TSource>, Int32)
+  nameWithType.vb: EnumerableExtensions.Chunk(Of TSource)(IEnumerable(Of TSource), Int32)
+- uid: MoreNet.Foundation.Extensions.EnumExtensions
+  name: EnumExtensions
+  href: api/MoreNet.Foundation.Extensions.EnumExtensions.html
+  commentId: T:MoreNet.Foundation.Extensions.EnumExtensions
+  fullName: MoreNet.Foundation.Extensions.EnumExtensions
+  nameWithType: EnumExtensions
+- uid: MoreNet.Foundation.Extensions.EnumExtensions.ExtractFlags*
+  name: ExtractFlags
+  href: api/MoreNet.Foundation.Extensions.EnumExtensions.html#MoreNet_Foundation_Extensions_EnumExtensions_ExtractFlags_
+  commentId: Overload:MoreNet.Foundation.Extensions.EnumExtensions.ExtractFlags
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.EnumExtensions.ExtractFlags
+  nameWithType: EnumExtensions.ExtractFlags
+- uid: MoreNet.Foundation.Extensions.EnumExtensions.ExtractFlags``1(``0)
+  name: ExtractFlags<T>(T)
+  href: api/MoreNet.Foundation.Extensions.EnumExtensions.html#MoreNet_Foundation_Extensions_EnumExtensions_ExtractFlags__1___0_
+  commentId: M:MoreNet.Foundation.Extensions.EnumExtensions.ExtractFlags``1(``0)
+  name.vb: ExtractFlags(Of T)(T)
+  fullName: MoreNet.Foundation.Extensions.EnumExtensions.ExtractFlags<T>(T)
+  fullName.vb: MoreNet.Foundation.Extensions.EnumExtensions.ExtractFlags(Of T)(T)
+  nameWithType: EnumExtensions.ExtractFlags<T>(T)
+  nameWithType.vb: EnumExtensions.ExtractFlags(Of T)(T)
+- uid: MoreNet.Foundation.Extensions.GenericExtensions
+  name: GenericExtensions
+  href: api/MoreNet.Foundation.Extensions.GenericExtensions.html
+  commentId: T:MoreNet.Foundation.Extensions.GenericExtensions
+  fullName: MoreNet.Foundation.Extensions.GenericExtensions
+  nameWithType: GenericExtensions
+- uid: MoreNet.Foundation.Extensions.GenericExtensions.In*
+  name: In
+  href: api/MoreNet.Foundation.Extensions.GenericExtensions.html#MoreNet_Foundation_Extensions_GenericExtensions_In_
+  commentId: Overload:MoreNet.Foundation.Extensions.GenericExtensions.In
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.GenericExtensions.In
+  nameWithType: GenericExtensions.In
+- uid: MoreNet.Foundation.Extensions.GenericExtensions.In``1(``0,``0[])
+  name: In<T>(T, T[])
+  href: api/MoreNet.Foundation.Extensions.GenericExtensions.html#MoreNet_Foundation_Extensions_GenericExtensions_In__1___0___0___
+  commentId: M:MoreNet.Foundation.Extensions.GenericExtensions.In``1(``0,``0[])
+  name.vb: In(Of T)(T, T())
+  fullName: MoreNet.Foundation.Extensions.GenericExtensions.In<T>(T, T[])
+  fullName.vb: MoreNet.Foundation.Extensions.GenericExtensions.In(Of T)(T, T())
+  nameWithType: GenericExtensions.In<T>(T, T[])
+  nameWithType.vb: GenericExtensions.In(Of T)(T, T())
+- uid: MoreNet.Foundation.Extensions.QueryableExtensions
+  name: QueryableExtensions
+  href: api/MoreNet.Foundation.Extensions.QueryableExtensions.html
+  commentId: T:MoreNet.Foundation.Extensions.QueryableExtensions
+  fullName: MoreNet.Foundation.Extensions.QueryableExtensions
+  nameWithType: QueryableExtensions
+- uid: MoreNet.Foundation.Extensions.QueryableExtensions.Paginate*
+  name: Paginate
+  href: api/MoreNet.Foundation.Extensions.QueryableExtensions.html#MoreNet_Foundation_Extensions_QueryableExtensions_Paginate_
+  commentId: Overload:MoreNet.Foundation.Extensions.QueryableExtensions.Paginate
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.QueryableExtensions.Paginate
+  nameWithType: QueryableExtensions.Paginate
+- uid: MoreNet.Foundation.Extensions.QueryableExtensions.Paginate``1(System.Linq.IQueryable{``0},MoreNet.Foundation.Conventions.IPageable)
+  name: Paginate<T>(IQueryable<T>, IPageable)
+  href: api/MoreNet.Foundation.Extensions.QueryableExtensions.html#MoreNet_Foundation_Extensions_QueryableExtensions_Paginate__1_System_Linq_IQueryable___0__MoreNet_Foundation_Conventions_IPageable_
+  commentId: M:MoreNet.Foundation.Extensions.QueryableExtensions.Paginate``1(System.Linq.IQueryable{``0},MoreNet.Foundation.Conventions.IPageable)
+  name.vb: Paginate(Of T)(IQueryable(Of T), IPageable)
+  fullName: MoreNet.Foundation.Extensions.QueryableExtensions.Paginate<T>(System.Linq.IQueryable<T>, MoreNet.Foundation.Conventions.IPageable)
+  fullName.vb: MoreNet.Foundation.Extensions.QueryableExtensions.Paginate(Of T)(System.Linq.IQueryable(Of T), MoreNet.Foundation.Conventions.IPageable)
+  nameWithType: QueryableExtensions.Paginate<T>(IQueryable<T>, IPageable)
+  nameWithType.vb: QueryableExtensions.Paginate(Of T)(IQueryable(Of T), IPageable)
+- uid: MoreNet.Foundation.Extensions.QueryableExtensions.WhereIf*
+  name: WhereIf
+  href: api/MoreNet.Foundation.Extensions.QueryableExtensions.html#MoreNet_Foundation_Extensions_QueryableExtensions_WhereIf_
+  commentId: Overload:MoreNet.Foundation.Extensions.QueryableExtensions.WhereIf
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.QueryableExtensions.WhereIf
+  nameWithType: QueryableExtensions.WhereIf
+- uid: MoreNet.Foundation.Extensions.QueryableExtensions.WhereIf``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Boolean)
+  name: WhereIf<T>(IQueryable<T>, Expression<Func<T, Boolean>>, Boolean)
+  href: api/MoreNet.Foundation.Extensions.QueryableExtensions.html#MoreNet_Foundation_Extensions_QueryableExtensions_WhereIf__1_System_Linq_IQueryable___0__System_Linq_Expressions_Expression_System_Func___0_System_Boolean___System_Boolean_
+  commentId: M:MoreNet.Foundation.Extensions.QueryableExtensions.WhereIf``1(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Boolean)
+  name.vb: WhereIf(Of T)(IQueryable(Of T), Expression(Of Func(Of T, Boolean)), Boolean)
+  fullName: MoreNet.Foundation.Extensions.QueryableExtensions.WhereIf<T>(System.Linq.IQueryable<T>, System.Linq.Expressions.Expression<System.Func<T, System.Boolean>>, System.Boolean)
+  fullName.vb: MoreNet.Foundation.Extensions.QueryableExtensions.WhereIf(Of T)(System.Linq.IQueryable(Of T), System.Linq.Expressions.Expression(Of System.Func(Of T, System.Boolean)), System.Boolean)
+  nameWithType: QueryableExtensions.WhereIf<T>(IQueryable<T>, Expression<Func<T, Boolean>>, Boolean)
+  nameWithType.vb: QueryableExtensions.WhereIf(Of T)(IQueryable(Of T), Expression(Of Func(Of T, Boolean)), Boolean)
+- uid: MoreNet.Foundation.Extensions.StringExtensions
+  name: StringExtensions
+  href: api/MoreNet.Foundation.Extensions.StringExtensions.html
+  commentId: T:MoreNet.Foundation.Extensions.StringExtensions
+  fullName: MoreNet.Foundation.Extensions.StringExtensions
+  nameWithType: StringExtensions
+- uid: MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String)
+  name: ToUnicode(String)
+  href: api/MoreNet.Foundation.Extensions.StringExtensions.html#MoreNet_Foundation_Extensions_StringExtensions_ToUnicode_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String)
+  fullName: MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String)
+  nameWithType: StringExtensions.ToUnicode(String)
+- uid: MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String,System.String)
+  name: ToUnicode(String, String)
+  href: api/MoreNet.Foundation.Extensions.StringExtensions.html#MoreNet_Foundation_Extensions_StringExtensions_ToUnicode_System_String_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String,System.String)
+  fullName: MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String, System.String)
+  nameWithType: StringExtensions.ToUnicode(String, String)
+- uid: MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String,System.String,System.String,System.Boolean)
+  name: ToUnicode(String, String, String, Boolean)
+  href: api/MoreNet.Foundation.Extensions.StringExtensions.html#MoreNet_Foundation_Extensions_StringExtensions_ToUnicode_System_String_System_String_System_String_System_Boolean_
+  commentId: M:MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String,System.String,System.String,System.Boolean)
+  fullName: MoreNet.Foundation.Extensions.StringExtensions.ToUnicode(System.String, System.String, System.String, System.Boolean)
+  nameWithType: StringExtensions.ToUnicode(String, String, String, Boolean)
+- uid: MoreNet.Foundation.Extensions.StringExtensions.ToUnicode*
+  name: ToUnicode
+  href: api/MoreNet.Foundation.Extensions.StringExtensions.html#MoreNet_Foundation_Extensions_StringExtensions_ToUnicode_
+  commentId: Overload:MoreNet.Foundation.Extensions.StringExtensions.ToUnicode
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.StringExtensions.ToUnicode
+  nameWithType: StringExtensions.ToUnicode
+- uid: MoreNet.Foundation.FluentUriBuilder
+  name: FluentUriBuilder
+  href: api/MoreNet.Foundation.FluentUriBuilder.html
+  commentId: T:MoreNet.Foundation.FluentUriBuilder
+  fullName: MoreNet.Foundation.FluentUriBuilder
+  nameWithType: FluentUriBuilder
+- uid: MoreNet.Foundation.FluentUriBuilder.AddQuery(System.String,System.String[])
+  name: AddQuery(String, String[])
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_AddQuery_System_String_System_String___
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.AddQuery(System.String,System.String[])
+  name.vb: AddQuery(String, String())
+  fullName: MoreNet.Foundation.FluentUriBuilder.AddQuery(System.String, System.String[])
+  fullName.vb: MoreNet.Foundation.FluentUriBuilder.AddQuery(System.String, System.String())
+  nameWithType: FluentUriBuilder.AddQuery(String, String[])
+  nameWithType.vb: FluentUriBuilder.AddQuery(String, String())
+- uid: MoreNet.Foundation.FluentUriBuilder.AddQuery*
+  name: AddQuery
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_AddQuery_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.AddQuery
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.AddQuery
+  nameWithType: FluentUriBuilder.AddQuery
+- uid: MoreNet.Foundation.FluentUriBuilder.AddQuery``2(System.String,``0[])
+  name: AddQuery<TEnum, TUnderlying>(String, TEnum[])
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_AddQuery__2_System_String___0___
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.AddQuery``2(System.String,``0[])
+  name.vb: AddQuery(Of TEnum, TUnderlying)(String, TEnum())
+  fullName: MoreNet.Foundation.FluentUriBuilder.AddQuery<TEnum, TUnderlying>(System.String, TEnum[])
+  fullName.vb: MoreNet.Foundation.FluentUriBuilder.AddQuery(Of TEnum, TUnderlying)(System.String, TEnum())
+  nameWithType: FluentUriBuilder.AddQuery<TEnum, TUnderlying>(String, TEnum[])
+  nameWithType.vb: FluentUriBuilder.AddQuery(Of TEnum, TUnderlying)(String, TEnum())
+- uid: MoreNet.Foundation.FluentUriBuilder.Create
+  name: Create()
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_Create
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.Create
+  fullName: MoreNet.Foundation.FluentUriBuilder.Create()
+  nameWithType: FluentUriBuilder.Create()
+- uid: MoreNet.Foundation.FluentUriBuilder.Create(System.Uri)
+  name: Create(Uri)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_Create_System_Uri_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.Create(System.Uri)
+  fullName: MoreNet.Foundation.FluentUriBuilder.Create(System.Uri)
+  nameWithType: FluentUriBuilder.Create(Uri)
+- uid: MoreNet.Foundation.FluentUriBuilder.Create*
+  name: Create
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_Create_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.Create
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.Create
+  nameWithType: FluentUriBuilder.Create
+- uid: MoreNet.Foundation.FluentUriBuilder.SetFragment(System.String)
+  name: SetFragment(String)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetFragment_System_String_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.SetFragment(System.String)
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetFragment(System.String)
+  nameWithType: FluentUriBuilder.SetFragment(String)
+- uid: MoreNet.Foundation.FluentUriBuilder.SetFragment*
+  name: SetFragment
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetFragment_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.SetFragment
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetFragment
+  nameWithType: FluentUriBuilder.SetFragment
+- uid: MoreNet.Foundation.FluentUriBuilder.SetHost(System.String)
+  name: SetHost(String)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetHost_System_String_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.SetHost(System.String)
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetHost(System.String)
+  nameWithType: FluentUriBuilder.SetHost(String)
+- uid: MoreNet.Foundation.FluentUriBuilder.SetHost*
+  name: SetHost
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetHost_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.SetHost
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetHost
+  nameWithType: FluentUriBuilder.SetHost
+- uid: MoreNet.Foundation.FluentUriBuilder.SetPath(System.String)
+  name: SetPath(String)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetPath_System_String_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.SetPath(System.String)
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetPath(System.String)
+  nameWithType: FluentUriBuilder.SetPath(String)
+- uid: MoreNet.Foundation.FluentUriBuilder.SetPath*
+  name: SetPath
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetPath_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.SetPath
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetPath
+  nameWithType: FluentUriBuilder.SetPath
+- uid: MoreNet.Foundation.FluentUriBuilder.SetPort(System.Int32)
+  name: SetPort(Int32)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetPort_System_Int32_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.SetPort(System.Int32)
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetPort(System.Int32)
+  nameWithType: FluentUriBuilder.SetPort(Int32)
+- uid: MoreNet.Foundation.FluentUriBuilder.SetPort*
+  name: SetPort
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetPort_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.SetPort
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetPort
+  nameWithType: FluentUriBuilder.SetPort
+- uid: MoreNet.Foundation.FluentUriBuilder.SetQuery(System.String)
+  name: SetQuery(String)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetQuery_System_String_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.SetQuery(System.String)
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetQuery(System.String)
+  nameWithType: FluentUriBuilder.SetQuery(String)
+- uid: MoreNet.Foundation.FluentUriBuilder.SetQuery*
+  name: SetQuery
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetQuery_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.SetQuery
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetQuery
+  nameWithType: FluentUriBuilder.SetQuery
+- uid: MoreNet.Foundation.FluentUriBuilder.SetScheme(System.String)
+  name: SetScheme(String)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetScheme_System_String_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.SetScheme(System.String)
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetScheme(System.String)
+  nameWithType: FluentUriBuilder.SetScheme(String)
+- uid: MoreNet.Foundation.FluentUriBuilder.SetScheme*
+  name: SetScheme
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetScheme_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.SetScheme
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetScheme
+  nameWithType: FluentUriBuilder.SetScheme
+- uid: MoreNet.Foundation.FluentUriBuilder.SetUser(System.String)
+  name: SetUser(String)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetUser_System_String_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.SetUser(System.String)
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetUser(System.String)
+  nameWithType: FluentUriBuilder.SetUser(String)
+- uid: MoreNet.Foundation.FluentUriBuilder.SetUser(System.String,System.String)
+  name: SetUser(String, String)
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetUser_System_String_System_String_
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.SetUser(System.String,System.String)
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetUser(System.String, System.String)
+  nameWithType: FluentUriBuilder.SetUser(String, String)
+- uid: MoreNet.Foundation.FluentUriBuilder.SetUser*
+  name: SetUser
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_SetUser_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.SetUser
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.SetUser
+  nameWithType: FluentUriBuilder.SetUser
+- uid: MoreNet.Foundation.FluentUriBuilder.ToString
+  name: ToString()
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_ToString
+  commentId: M:MoreNet.Foundation.FluentUriBuilder.ToString
+  fullName: MoreNet.Foundation.FluentUriBuilder.ToString()
+  nameWithType: FluentUriBuilder.ToString()
+- uid: MoreNet.Foundation.FluentUriBuilder.ToString*
+  name: ToString
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_ToString_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.ToString
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.ToString
+  nameWithType: FluentUriBuilder.ToString
+- uid: MoreNet.Foundation.FluentUriBuilder.Uri
+  name: Uri
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_Uri
+  commentId: P:MoreNet.Foundation.FluentUriBuilder.Uri
+  fullName: MoreNet.Foundation.FluentUriBuilder.Uri
+  nameWithType: FluentUriBuilder.Uri
+- uid: MoreNet.Foundation.FluentUriBuilder.Uri*
+  name: Uri
+  href: api/MoreNet.Foundation.FluentUriBuilder.html#MoreNet_Foundation_FluentUriBuilder_Uri_
+  commentId: Overload:MoreNet.Foundation.FluentUriBuilder.Uri
+  isSpec: "True"
+  fullName: MoreNet.Foundation.FluentUriBuilder.Uri
+  nameWithType: FluentUriBuilder.Uri
+- uid: MoreNet.Foundation.Globalization
+  name: MoreNet.Foundation.Globalization
+  href: api/MoreNet.Foundation.Globalization.html
+  commentId: N:MoreNet.Foundation.Globalization
+  fullName: MoreNet.Foundation.Globalization
+  nameWithType: MoreNet.Foundation.Globalization
+- uid: MoreNet.Foundation.Globalization.TextElementString
+  name: TextElementString
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html
+  commentId: T:MoreNet.Foundation.Globalization.TextElementString
+  fullName: MoreNet.Foundation.Globalization.TextElementString
+  nameWithType: TextElementString
+- uid: MoreNet.Foundation.Globalization.TextElementString.#ctor(System.String)
+  name: TextElementString(String)
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString__ctor_System_String_
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.#ctor(System.String)
+  fullName: MoreNet.Foundation.Globalization.TextElementString.TextElementString(System.String)
+  nameWithType: TextElementString.TextElementString(String)
+- uid: MoreNet.Foundation.Globalization.TextElementString.#ctor*
+  name: TextElementString
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString__ctor_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.#ctor
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.TextElementString
+  nameWithType: TextElementString.TextElementString
+- uid: MoreNet.Foundation.Globalization.TextElementString.Contains(System.String)
+  name: Contains(String)
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Contains_System_String_
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.Contains(System.String)
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Contains(System.String)
+  nameWithType: TextElementString.Contains(String)
+- uid: MoreNet.Foundation.Globalization.TextElementString.Contains*
+  name: Contains
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Contains_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.Contains
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Contains
+  nameWithType: TextElementString.Contains
+- uid: MoreNet.Foundation.Globalization.TextElementString.GetEnumerator
+  name: GetEnumerator()
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_GetEnumerator
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.GetEnumerator
+  fullName: MoreNet.Foundation.Globalization.TextElementString.GetEnumerator()
+  nameWithType: TextElementString.GetEnumerator()
+- uid: MoreNet.Foundation.Globalization.TextElementString.GetEnumerator*
+  name: GetEnumerator
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_GetEnumerator_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.GetEnumerator
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.GetEnumerator
+  nameWithType: TextElementString.GetEnumerator
+- uid: MoreNet.Foundation.Globalization.TextElementString.Item(System.Int32)
+  name: Item[Int32]
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Item_System_Int32_
+  commentId: P:MoreNet.Foundation.Globalization.TextElementString.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Item[System.Int32]
+  fullName.vb: MoreNet.Foundation.Globalization.TextElementString.Item(System.Int32)
+  nameWithType: TextElementString.Item[Int32]
+  nameWithType.vb: TextElementString.Item(Int32)
+- uid: MoreNet.Foundation.Globalization.TextElementString.Item*
+  name: Item
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Item_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.Item
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Item
+  nameWithType: TextElementString.Item
+- uid: MoreNet.Foundation.Globalization.TextElementString.op_Implicit(MoreNet.Foundation.Globalization.TextElementString)~System.String
+  name: Implicit(TextElementString to String)
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_op_Implicit_MoreNet_Foundation_Globalization_TextElementString__System_String
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.op_Implicit(MoreNet.Foundation.Globalization.TextElementString)~System.String
+  name.vb: Widening(TextElementString to String)
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Implicit(MoreNet.Foundation.Globalization.TextElementString to System.String)
+  fullName.vb: MoreNet.Foundation.Globalization.TextElementString.Widening(MoreNet.Foundation.Globalization.TextElementString to System.String)
+  nameWithType: TextElementString.Implicit(TextElementString to String)
+  nameWithType.vb: TextElementString.Widening(TextElementString to String)
+- uid: MoreNet.Foundation.Globalization.TextElementString.op_Implicit*
+  name: Implicit
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_op_Implicit_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Implicit
+  fullName.vb: MoreNet.Foundation.Globalization.TextElementString.Widening
+  nameWithType: TextElementString.Implicit
+  nameWithType.vb: TextElementString.Widening
+- uid: MoreNet.Foundation.Globalization.TextElementString.Remove(System.Int32)
+  name: Remove(Int32)
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Remove_System_Int32_
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.Remove(System.Int32)
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Remove(System.Int32)
+  nameWithType: TextElementString.Remove(Int32)
+- uid: MoreNet.Foundation.Globalization.TextElementString.Remove(System.Int32,System.Int32)
+  name: Remove(Int32, Int32)
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Remove_System_Int32_System_Int32_
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.Remove(System.Int32,System.Int32)
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Remove(System.Int32, System.Int32)
+  nameWithType: TextElementString.Remove(Int32, Int32)
+- uid: MoreNet.Foundation.Globalization.TextElementString.Remove*
+  name: Remove
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Remove_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.Remove
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Remove
+  nameWithType: TextElementString.Remove
+- uid: MoreNet.Foundation.Globalization.TextElementString.Replace(System.String,System.String)
+  name: Replace(String, String)
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Replace_System_String_System_String_
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.Replace(System.String,System.String)
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Replace(System.String, System.String)
+  nameWithType: TextElementString.Replace(String, String)
+- uid: MoreNet.Foundation.Globalization.TextElementString.Replace*
+  name: Replace
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Replace_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.Replace
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Replace
+  nameWithType: TextElementString.Replace
+- uid: MoreNet.Foundation.Globalization.TextElementString.Reverse
+  name: Reverse()
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Reverse
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.Reverse
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Reverse()
+  nameWithType: TextElementString.Reverse()
+- uid: MoreNet.Foundation.Globalization.TextElementString.Reverse*
+  name: Reverse
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Reverse_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.Reverse
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Reverse
+  nameWithType: TextElementString.Reverse
+- uid: MoreNet.Foundation.Globalization.TextElementString.System#Collections#IEnumerable#GetEnumerator
+  name: IEnumerable.GetEnumerator()
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_System_Collections_IEnumerable_GetEnumerator
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.System#Collections#IEnumerable#GetEnumerator
+  name.vb: System.Collections.IEnumerable.GetEnumerator()
+  fullName: MoreNet.Foundation.Globalization.TextElementString.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: TextElementString.IEnumerable.GetEnumerator()
+  nameWithType.vb: TextElementString.System.Collections.IEnumerable.GetEnumerator()
+- uid: MoreNet.Foundation.Globalization.TextElementString.System#Collections#IEnumerable#GetEnumerator*
+  name: IEnumerable.GetEnumerator
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_System_Collections_IEnumerable_GetEnumerator_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.System#Collections#IEnumerable#GetEnumerator
+  isSpec: "True"
+  name.vb: System.Collections.IEnumerable.GetEnumerator
+  fullName: MoreNet.Foundation.Globalization.TextElementString.System.Collections.IEnumerable.GetEnumerator
+  nameWithType: TextElementString.IEnumerable.GetEnumerator
+  nameWithType.vb: TextElementString.System.Collections.IEnumerable.GetEnumerator
+- uid: MoreNet.Foundation.Globalization.TextElementString.ToString
+  name: ToString()
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_ToString
+  commentId: M:MoreNet.Foundation.Globalization.TextElementString.ToString
+  fullName: MoreNet.Foundation.Globalization.TextElementString.ToString()
+  nameWithType: TextElementString.ToString()
+- uid: MoreNet.Foundation.Globalization.TextElementString.ToString*
+  name: ToString
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_ToString_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.ToString
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.ToString
+  nameWithType: TextElementString.ToString

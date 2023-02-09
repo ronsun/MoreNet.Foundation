@@ -18,6 +18,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7F768F4-259
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{08063B7E-E637-43FA-9F9A-0F945896A0C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{4C38F8FA-A8C6-470D-9D01-F2C1D19E69B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreNet.Foundation.DocFx", "tools\MoreNet.Foundation.DocFx\MoreNet.Foundation.DocFx.csproj", "{290DDF31-51FB-4A53-9025-3A4C75DBADA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +40,10 @@ Global
 		{8D399680-9E66-4ED7-A6D6-087631BB08E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D399680-9E66-4ED7-A6D6-087631BB08E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D399680-9E66-4ED7-A6D6-087631BB08E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290DDF31-51FB-4A53-9025-3A4C75DBADA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290DDF31-51FB-4A53-9025-3A4C75DBADA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290DDF31-51FB-4A53-9025-3A4C75DBADA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290DDF31-51FB-4A53-9025-3A4C75DBADA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{4F110B4B-0793-4B27-AA7B-87649D63DEE8} = {B7F768F4-259C-4F2B-AB94-09DBD38F5719}
 		{9A60961A-F2C2-4C48-B40B-4D264361BDCE} = {08063B7E-E637-43FA-9F9A-0F945896A0C1}
 		{8D399680-9E66-4ED7-A6D6-087631BB08E8} = {08063B7E-E637-43FA-9F9A-0F945896A0C1}
+		{290DDF31-51FB-4A53-9025-3A4C75DBADA4} = {4C38F8FA-A8C6-470D-9D01-F2C1D19E69B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2569F86D-B51D-405D-A3F3-F97D0917CB2D}
