@@ -13,6 +13,7 @@
     <PackageProjectUrl>https://github.com/ronsun/MoreNet.Foundation</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ronsun/MoreNet.Foundation</RepositoryUrl>
     <DocumentationFile>obj\Debug\netstandard2.0\MoreNet.Foundation.xml</DocumentationFile>
+    <PackageReleaseNotes>First Version</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
