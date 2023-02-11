@@ -4,12 +4,216 @@
   "xrefmap": "xrefmap.yml",
   "files": [
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Argument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Argument.html",
+          "hash": "li/vx/JsRvcy9pJc8R/lRVzW4uglfnqyJ3LOPhtixVE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Constants.DecimalConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Constants.DecimalConstants.html",
+          "hash": "vEqxWRXhHrVHBeAnKItYjEXVxtcoZkxWHU+V76YYHfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Constants.html",
+          "hash": "QDBi4Vfljw7IjTq8cCsWSS43GtCz5uPA6VIq32dzizY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Conventions.IOrderable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Conventions.IOrderable-1.html",
+          "hash": "4llZgy2rGVbINZJQvZCW0gwpatmjskrqm9L0XRJs/LU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Conventions.IPageable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Conventions.IPageable.html",
+          "hash": "ylMSXvLmKvlgwcRz8pKNIgttitQdeP/0LXa+bv0/5uM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Conventions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Conventions.html",
+          "hash": "K6mkTpzgM7aXHGmjtXJ1vY1fjZ7MOQNRxqPJJM7KTVc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Extensions.EnumExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Extensions.EnumExtensions.html",
+          "hash": "SE8C7FXN1jQgT7CDJrlHnZx6RJ//1ZEhFhb94P3nLwM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Extensions.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Extensions.EnumerableExtensions.html",
+          "hash": "Akkrs02AalcRho9I+55itfwLShTSNFFvLN0wLPq41ZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Extensions.GenericExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Extensions.GenericExtensions.html",
+          "hash": "5ifRiAsyl2NXIpFMp4cwiod1wTT6Os0cS3uS34rzB5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Extensions.QueryableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Extensions.QueryableExtensions.html",
+          "hash": "Ue57SXzNRSE8+W0bek/rsRFOJmGOd8cREZ6pSQM9g8o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Extensions.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Extensions.StringExtensions.html",
+          "hash": "OFPfs+o360DyDI1yNjmYmY/wd20MkSo8PT2jwfQrcxs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Extensions.html",
+          "hash": "znKJMrykHP7DyAYUS+q0YVhy7/WyhZ1SitIqJVNU4kc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.FluentUriBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.FluentUriBuilder.html",
+          "hash": "j2pGTJhuROgnOOtiQqp32G3f6yXhMfA+fjgL2DnuVuw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Globalization.TextElementString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Globalization.TextElementString.html",
+          "hash": "Xj63Azr/d0XrU6n9j1ApXc2SDMSYhE85cRXJ13UXTnU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Globalization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Globalization.html",
+          "hash": "8DQXMWfzGopNBzhaukMKDvblUM496COsoyyfe/w/8Nc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.html",
+          "hash": "sqUVKljhBFhHrMLNGQoLzqMqyInBunBG8QN4OPSSigk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "Y74vYLfyM1ePH/iTx1y6reIc3iEinEIx2jjtXeSoo68="
+          "hash": "z+OcW4JSllFSZczNEmsDaXlVueQ0X8E3fPWdQz4P9tw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "6BE53CfTKLpjRkK7dbbAnx5PpFuVSsaUJjJjRJXkvR4="
         }
       },
       "is_incremental": false,
@@ -21,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "f+mfXtFBpMqCj21q/yLf8DqoEssfjiKDQucQWHGq3K8="
+          "hash": "HF5WnkZstxu6kBnK6DZ7OIB7Ldmkjt2ci3Ajl2p/tj4="
         }
       },
       "is_incremental": false,
@@ -29,7 +233,7 @@
     },
     {
       "type": "Toc",
-      "source_relative_path": "articles/toc.md",
+      "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
@@ -45,211 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "mQPLtF0G014hWnS+Ug8bfnmVMSl5gKoqTkA8+3wuveQ="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Argument.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Argument.html",
-          "hash": "U9KC4Re7fUurcrw5+r5nwSnTMMx8n7kRPqnbInCgOIY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Constants.DecimalConstants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Constants.DecimalConstants.html",
-          "hash": "XBbTJHJkjc8x+ftog1lnFPEPiPj5S9LTGfVUeU3kFAw="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Constants.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Constants.html",
-          "hash": "20H7xjV6oP3ZVyYHRMalrvtPUAj0o50D+cbBKzxU4Oo="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Conventions.IOrderable-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Conventions.IOrderable-1.html",
-          "hash": "iwGlYhUMONi3zUppvM2zMmzx5bVt/aO5JnMMLq+DDYY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Conventions.IPageable.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Conventions.IPageable.html",
-          "hash": "DuZ80sryxhjbkdGrpTwmMcYAgmc1N1+EGn21zKF6T24="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Conventions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Conventions.html",
-          "hash": "bLWfdmztuhNyGf2+fctPH62PjwASXUq2N6PonFjkm14="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Extensions.EnumExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.EnumExtensions.html",
-          "hash": "so4Zr4ZBmWGMMRJdzABycKWshjj6XPNeGvJ2LlFnr8I="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Extensions.EnumerableExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.EnumerableExtensions.html",
-          "hash": "McE3mZs69l8KBvjW22e1r1DrQu+jg97G1rvoOSA6k8o="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Extensions.GenericExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.GenericExtensions.html",
-          "hash": "P5RPAGtiNzqM3uOwYeV3FbEdD/qIusV7y303DVZgoPA="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Extensions.QueryableExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.QueryableExtensions.html",
-          "hash": "ka99+DPMwJhLfK1ajDU9JuECFNtmI7vSAGZnH501h7Y="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Extensions.StringExtensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.StringExtensions.html",
-          "hash": "dfVI9bSIu85mGrT9qZJBdniUtA3Cy6NqjhGhAew2osE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Extensions.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.html",
-          "hash": "GncrYXU8HujIB21gVEi8+tDuV+nQguE5IPfSQtEPIL0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.FluentUriBuilder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.FluentUriBuilder.html",
-          "hash": "B/yYLTaNszmUVufK+5qiuOB4FDrvW5YCjb54MxGk4yM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Globalization.TextElementString.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Globalization.TextElementString.html",
-          "hash": "JnlAuDmpO0TWvn6dh3YwrbUGorrWPE6p/lGVj2UEC+8="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.Globalization.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.Globalization.html",
-          "hash": "LhJa/Ak9XOYqGj3UlmUr6QwCJA3++8XxlGZg/982x6E="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/api/MoreNet.Foundation.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/MoreNet.Foundation.html",
-          "hash": "h6a+0SF6OME8/20ofPXlBx/vLDnKgfNeRuxUxKVcO6U="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "obj/api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "6BE53CfTKLpjRkK7dbbAnx5PpFuVSsaUJjJjRJXkvR4="
+          "hash": "bxDEvT3IJS/T4mGCcKZBr8qHEZwk7BHFn9sqe2rgZFA="
         }
       },
       "is_incremental": false,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
         }
       },
       "is_incremental": false,
