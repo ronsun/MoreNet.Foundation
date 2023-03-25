@@ -540,6 +540,19 @@ references:
   isSpec: "True"
   fullName: MoreNet.Foundation.Globalization.TextElementString.Item
   nameWithType: TextElementString.Item
+- uid: MoreNet.Foundation.Globalization.TextElementString.Length
+  name: Length
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Length
+  commentId: P:MoreNet.Foundation.Globalization.TextElementString.Length
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Length
+  nameWithType: TextElementString.Length
+- uid: MoreNet.Foundation.Globalization.TextElementString.Length*
+  name: Length
+  href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_Length_
+  commentId: Overload:MoreNet.Foundation.Globalization.TextElementString.Length
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Globalization.TextElementString.Length
+  nameWithType: TextElementString.Length
 - uid: MoreNet.Foundation.Globalization.TextElementString.op_Implicit(MoreNet.Foundation.Globalization.TextElementString)~System.String
   name: Implicit(TextElementString to String)
   href: api/MoreNet.Foundation.Globalization.TextElementString.html#MoreNet_Foundation_Globalization_TextElementString_op_Implicit_MoreNet_Foundation_Globalization_TextElementString__System_String
