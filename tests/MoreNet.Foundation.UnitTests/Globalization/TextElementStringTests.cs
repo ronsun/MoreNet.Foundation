@@ -1,5 +1,4 @@
-﻿using MoreNet.Foundation.Globalization;
-using FluentAssertions;
+﻿using FluentAssertions;
 using NUnit.Framework;
 using System.Collections;
 
@@ -8,6 +7,22 @@ namespace MoreNet.Foundation.Globalization.Tests
     [TestFixture()]
     public partial class TextElementStringTests
     {
+        [Test()]
+        [TestCase("e", 1)]
+        [TestCase("e\u0301"/* é */, 1)]
+        [TestCase("e\u0301e"/* ée */, 2)]
+        public void LengthTest(string stubString, int expected)
+        {
+            // arrange
+            var target = new TextElementString(stubString);
+
+            // act
+            var actual = target.Length;
+
+            // assert
+            actual.Should().Be(expected);
+        }
+
         [Test()]
         // regular, full match in sequence
         [TestCase("a", "a", true)]
