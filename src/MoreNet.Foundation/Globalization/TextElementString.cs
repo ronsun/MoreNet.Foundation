@@ -14,6 +14,15 @@ namespace MoreNet.Foundation.Globalization
         private List<string> _underlyingTextElements;
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="TextElementString"/> class.
+        /// </summary>
+        /// <param name="value">The string to seek.</param>
+        public TextElementString(string value)
+        {
+            _underlyingTextElements = GenerateTextElements(value);
+        }
+
+        /// <summary>
         /// Gets length of the <see cref="TextElementString"/>.
         /// </summary>
         public int Length
@@ -22,15 +31,6 @@ namespace MoreNet.Foundation.Globalization
             {
                 return _underlyingTextElements.Count;
             }
-        }
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="TextElementString"/> class.
-        /// </summary>
-        /// <param name="value">The string to seek.</param>
-        public TextElementString(string value)
-        {
-            _underlyingTextElements = GenerateTextElements(value);
         }
 
         /// <summary>
