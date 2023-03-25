@@ -5,7 +5,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <Authors>Ron</Authors>
     <Company></Company>
     <PackageIcon>icon.png</PackageIcon>
@@ -13,7 +13,8 @@
     <PackageProjectUrl>https://github.com/ronsun/MoreNet.Foundation</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ronsun/MoreNet.Foundation</RepositoryUrl>
     <DocumentationFile>obj\Debug\netstandard2.0\MoreNet.Foundation.xml</DocumentationFile>
-    <PackageReleaseNotes>First Version</PackageReleaseNotes>
+    <PackageReleaseNotes>+ Add Length property to TextElementString.
++ Upgrade MoreNet.Foundation.DocFx</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
