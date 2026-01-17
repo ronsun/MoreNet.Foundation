@@ -1,23 +1,21 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IOrderable&lt;T&gt;
-   </title>
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IOrderable&lt;T&gt;
-   ">
-    <meta name="generator" content="docfx 2.59.4.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Interface IOrderable&lt;T&gt; </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Interface IOrderable&lt;T&gt; ">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta name="description" content="Convention about order.">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
     
     
     
@@ -25,7 +23,7 @@
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -35,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../index.html">
                 <img id="logo" class="svg" src="../logo.svg" alt="">
               </a>
@@ -49,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -59,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -69,21 +67,21 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="MoreNet.Foundation.Conventions.IOrderable`1">
-  
-  
-  <h1 id="MoreNet_Foundation_Conventions_IOrderable_1" data-uid="MoreNet.Foundation.Conventions.IOrderable`1" class="text-break">Interface IOrderable&lt;T&gt;
-  </h1>
+
+
+
+  <h1 id="MoreNet_Foundation_Conventions_IOrderable_1" data-uid="MoreNet.Foundation.Conventions.IOrderable`1" class="text-break">Interface IOrderable&lt;T&gt;</h1>
   <div class="markdown level0 summary"><p>Convention about order.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="MoreNet.Foundation.Conventions.html">MoreNet.Foundation.Conventions</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MoreNet.html">MoreNet</a>.<a class="xref" href="MoreNet.Foundation.html">Foundation</a>.<a class="xref" href="MoreNet.Foundation.Conventions.html">Conventions</a></h6>
   <h6><strong>Assembly</strong>: MoreNet.Foundation.dll</h6>
   <h5 id="MoreNet_Foundation_Conventions_IOrderable_1_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public interface IOrderable&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Name</th>
@@ -93,18 +91,18 @@
     <tbody>
       <tr>
         <td><span class="parametername">T</span></td>
-        <td><p>To indicate types for order, typically use <span class="xref">System.Enum</span> or constant to manage types.
-Use collection of <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> (ex: <span class="xref">System.Collections.Generic.List`1</span> where T is <span class="xref">System.Enum</span>)
+        <td><p>To indicate types for order, typically use <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.enum">Enum</a> or constant to manage types.
+Use collection of <code class="typeparamref">T</code> (ex: <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List&lt;T&gt;</a> where T is <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.enum">Enum</a>)
 is also appropriate if need to sort a collection of items by multiple properties.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
-  </h3>
+</h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Conventions_IOrderable_1_OrderBy.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Conventions.IOrderable%601.OrderBy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Conventions_IOrderable_1_OrderBy.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Conventions.IOrderable%601.OrderBy%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Conventions/IOrderable.cs/#L19">View Source</a>
@@ -114,12 +112,12 @@ is also appropriate if need to sort a collection of items by multiple properties
   <div class="markdown level1 summary"><p>Gets or sets types for.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
+  <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">T OrderBy { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
+  <table class="table table-bordered table-condensed">
     <thead>
       <tr>
         <th>Type</th>
@@ -135,17 +133,18 @@ is also appropriate if need to sort a collection of items by multiple properties
   </table>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
-      <a class="xref" href="MoreNet.Foundation.Extensions.GenericExtensions.html#MoreNet_Foundation_Extensions_GenericExtensions_In__1___0___0___">GenericExtensions.In&lt;T&gt;(T, T[])</a>
+      <a class="xref" href="MoreNet.Foundation.Extensions.GenericExtensions.html#MoreNet_Foundation_Extensions_GenericExtensions_In__1___0___0___">GenericExtensions.In&lt;T&gt;(T, params T[])</a>
   </div>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Conventions_IOrderable_1.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Conventions.IOrderable%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Conventions_IOrderable_1.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Conventions.IOrderable%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
                     <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Conventions/IOrderable.cs/#L14" class="contribution-link">View Source</a>
@@ -153,14 +152,14 @@ is also appropriate if need to sort a collection of items by multiple properties
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -168,14 +167,14 @@ is also appropriate if need to sort a collection of items by multiple properties
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            
-            <span>Generated by <strong>DocFX</strong></span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../styles/docfx.js"></script>
     <script type="text/javascript" src="../styles/main.js"></script>
   </body>

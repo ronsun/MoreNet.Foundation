@@ -1,5 +1,4 @@
 {
-  "homepages": [],
   "source_base_path": "C:/Users/Ron/Desktop/MyGithub/MoreNet.Foundation/tools/MoreNet.Foundation.DocFx",
   "xrefmap": "xrefmap.yml",
   "files": [
@@ -8,203 +7,247 @@
       "source_relative_path": "api/MoreNet.Foundation.Argument.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Argument.html",
-          "hash": "li/vx/JsRvcy9pJc8R/lRVzW4uglfnqyJ3LOPhtixVE="
+          "relative_path": "api/MoreNet.Foundation.Argument.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Argument",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Argument.yml\" sourcestartlinenumber=\"1\">Assert argument.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Constants.DecimalConstants.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Constants.DecimalConstants.html",
-          "hash": "vEqxWRXhHrVHBeAnKItYjEXVxtcoZkxWHU+V76YYHfc="
+          "relative_path": "api/MoreNet.Foundation.Constants.DecimalConstants.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Constants.DecimalConstants",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Constants.DecimalConstants.yml\" sourcestartlinenumber=\"1\">Constants for <xref href=\"System.Decimal\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Constants.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Constants.html",
-          "hash": "QDBi4Vfljw7IjTq8cCsWSS43GtCz5uPA6VIq32dzizY="
+          "relative_path": "api/MoreNet.Foundation.Constants.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Constants",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Conventions.IOrderable-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Conventions.IOrderable-1.html",
-          "hash": "4llZgy2rGVbINZJQvZCW0gwpatmjskrqm9L0XRJs/LU="
+          "relative_path": "api/MoreNet.Foundation.Conventions.IOrderable-1.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Conventions.IOrderable<T>",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Conventions.IOrderable-1.yml\" sourcestartlinenumber=\"1\">Convention about order.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Conventions.IPageable.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Conventions.IPageable.html",
-          "hash": "ylMSXvLmKvlgwcRz8pKNIgttitQdeP/0LXa+bv0/5uM="
+          "relative_path": "api/MoreNet.Foundation.Conventions.IPageable.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Conventions.IPageable",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Conventions.IPageable.yml\" sourcestartlinenumber=\"1\">Convention about pagination.\nUse it with <xref href=\"MoreNet.Foundation.Extensions.QueryableExtensions.Paginate%60%601(System.Linq.IQueryable%7b%60%600%7d%2cMoreNet.Foundation.Conventions.IPageable)\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Conventions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Conventions.html",
-          "hash": "K6mkTpzgM7aXHGmjtXJ1vY1fjZ7MOQNRxqPJJM7KTVc="
+          "relative_path": "api/MoreNet.Foundation.Conventions.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Conventions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Extensions.EnumExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.EnumExtensions.html",
-          "hash": "SE8C7FXN1jQgT7CDJrlHnZx6RJ//1ZEhFhb94P3nLwM="
+          "relative_path": "api/MoreNet.Foundation.Extensions.EnumExtensions.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Extensions.EnumExtensions",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Extensions.EnumExtensions.yml\" sourcestartlinenumber=\"1\">Extensions for <xref href=\"System.Enum\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.Enum\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Extensions.EnumerableExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.EnumerableExtensions.html",
-          "hash": "Akkrs02AalcRho9I+55itfwLShTSNFFvLN0wLPq41ZU="
+          "relative_path": "api/MoreNet.Foundation.Extensions.EnumerableExtensions.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Extensions.EnumerableExtensions",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Extensions.EnumerableExtensions.yml\" sourcestartlinenumber=\"1\">Extensions for <xref href=\"System.Collections.IEnumerable\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.Collections.Generic.IEnumerable%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Extensions.GenericExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.GenericExtensions.html",
-          "hash": "5ifRiAsyl2NXIpFMp4cwiod1wTT6Os0cS3uS34rzB5M="
+          "relative_path": "api/MoreNet.Foundation.Extensions.GenericExtensions.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Extensions.GenericExtensions",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Extensions.GenericExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for all generic types.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Extensions.QueryableExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.QueryableExtensions.html",
-          "hash": "Ue57SXzNRSE8+W0bek/rsRFOJmGOd8cREZ6pSQM9g8o="
+          "relative_path": "api/MoreNet.Foundation.Extensions.QueryableExtensions.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Extensions.QueryableExtensions",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Extensions.QueryableExtensions.yml\" sourcestartlinenumber=\"1\">Extensions for <xref href=\"System.Linq.IQueryable\" data-throw-if-not-resolved=\"false\"></xref> and <xref href=\"System.Linq.IQueryable%601\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Extensions.StringExtensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.StringExtensions.html",
-          "hash": "OFPfs+o360DyDI1yNjmYmY/wd20MkSo8PT2jwfQrcxs="
+          "relative_path": "api/MoreNet.Foundation.Extensions.StringExtensions.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Extensions.StringExtensions",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Extensions.StringExtensions.yml\" sourcestartlinenumber=\"1\">Extensions for <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref>.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MoreNet.Foundation.Extensions.TupleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MoreNet.Foundation.Extensions.TupleExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Extensions.TupleExtensions",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Extensions.TupleExtensions.yml\" sourcestartlinenumber=\"1\">Extension methods for tuples.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Extensions.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Extensions.html",
-          "hash": "znKJMrykHP7DyAYUS+q0YVhy7/WyhZ1SitIqJVNU4kc="
+          "relative_path": "api/MoreNet.Foundation.Extensions.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Extensions",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.FluentUriBuilder.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.FluentUriBuilder.html",
-          "hash": "j2pGTJhuROgnOOtiQqp32G3f6yXhMfA+fjgL2DnuVuw="
+          "relative_path": "api/MoreNet.Foundation.FluentUriBuilder.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.FluentUriBuilder",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.FluentUriBuilder.yml\" sourcestartlinenumber=\"1\">An adaptor used to adapt to <xref href=\"System.UriBuilder\" data-throw-if-not-resolved=\"false\"></xref> in Fluent API style.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Globalization.TextElementString.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Globalization.TextElementString.html",
-          "hash": "gTKs85/KuFFcGyNB5nKI9r2ouRXb63TK6WKVE0p7VZM="
+          "relative_path": "api/MoreNet.Foundation.Globalization.TextElementString.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Globalization.TextElementString",
+      "Summary": "<p sourcefile=\"api/MoreNet.Foundation.Globalization.TextElementString.yml\" sourcestartlinenumber=\"1\">Wrapper for <xref href=\"System.Globalization.TextElementEnumerator\" data-throw-if-not-resolved=\"false\"></xref> and provide commonly used methods for problems about grapheme.\nSome of methods from <xref href=\"System.String\" data-throw-if-not-resolved=\"false\"></xref> handle grapheme problems, we do not provide those methods.</p>\n"
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.Globalization.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.Globalization.html",
-          "hash": "8DQXMWfzGopNBzhaukMKDvblUM496COsoyyfe/w/8Nc="
+          "relative_path": "api/MoreNet.Foundation.Globalization.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation.Globalization",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/MoreNet.Foundation.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MoreNet.Foundation.html",
-          "hash": "sqUVKljhBFhHrMLNGQoLzqMqyInBunBG8QN4OPSSigk="
+          "relative_path": "api/MoreNet.Foundation.html"
         }
       },
-      "is_incremental": false,
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MoreNet.Foundation",
+      "Summary": null
     },
     {
       "type": "Conceptual",
       "source_relative_path": "api/index.md",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "z+OcW4JSllFSZczNEmsDaXlVueQ0X8E3fPWdQz4P9tw="
+          "relative_path": "api/index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -212,11 +255,12 @@
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "6BE53CfTKLpjRkK7dbbAnx5PpFuVSsaUJjJjRJXkvR4="
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -224,11 +268,9 @@
       "source_relative_path": "articles/intro.md",
       "output": {
         ".html": {
-          "relative_path": "articles/intro.html",
-          "hash": "HF5WnkZstxu6kBnK6DZ7OIB7Ldmkjt2ci3Ajl2p/tj4="
+          "relative_path": "articles/intro.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -236,11 +278,12 @@
       "source_relative_path": "articles/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "articles/toc.html",
-          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -248,11 +291,9 @@
       "source_relative_path": "index.md",
       "output": {
         ".html": {
-          "relative_path": "index.html",
-          "hash": "bxDEvT3IJS/T4mGCcKZBr8qHEZwk7BHFn9sqe2rgZFA="
+          "relative_path": "index.html"
         }
       },
-      "is_incremental": false,
       "version": ""
     },
     {
@@ -260,58 +301,15 @@
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
-          "relative_path": "toc.html",
-          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
-      "is_incremental": false,
       "version": ""
     }
   ],
-  "incremental_info": [
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Disable incremental build by force rebuild option.",
-        "incrementalPhase": "build",
-        "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ForceRebuild"
-      },
-      "processors": {
-        "ConceptualDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 0
-        },
-        "TocDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
-        }
-      }
-    },
-    {
-      "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: it's disabled.",
-        "incrementalPhase": "postProcessing",
-        "total_file_count": 0,
-        "skipped_file_count": 0
-      },
-      "processors": {}
-    }
-  ],
-  "version_info": {},
   "groups": [
     {
       "xrefmap": "xrefmap.yml"
