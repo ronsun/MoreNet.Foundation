@@ -9,9 +9,7 @@
           "src": "../../src/MoreNet.Foundation"
         }
       ],
-      "dest": "api",
-      "disableGitFeatures": false,
-      "disableDefaultFilter": false
+      "dest": "api"
     }
   ],
   "build": {
@@ -50,16 +48,8 @@
       }
     ],
     "dest": "../../docs",
-    "globalMetadataFiles": [],
-    "fileMetadataFiles": [],
     "template": [
       "default"
-    ],
-    "postProcessors": [],
-    "markdownEngineName": "markdig",
-    "noLangKeyword": false,
-    "keepFileLink": false,
-    "cleanupCacheHistory": false,
-    "disableGitFeatures": false
+    ]
   }
 }
