@@ -57,6 +57,40 @@ foreach (var orderBy in advancedRequest.SequentialOrderBy)
 }
 ```
 
+### Instructions
+
+Use `IInstructable<TInstruction>` when one API needs to serve many similar cases. Without this pattern, some callers may use one large API to get only a small part of the result, which wastes work. Creating a different API for each case can reduce that waste, but it also creates many similar endpoints that are hard to maintain. This pattern keeps common data and filter fields on the root model, and moves optional behavior switches into a nested `InstructionData`. These flags let a caller skip unneeded work, hide unneeded data, or ask for extra handling only when needed. If `Instruction` is `null`, the request uses the normal behavior. Keep instruction properties as simple boolean flags.
+
+Design `TInstruction` very carefully. It should stay small, and each flag should have one clear purpose. Too many flags, or flags that depend on each other, can turn the implementation into many branches that are hard to read, test, and maintain. If the flags start to describe different workflows, it is often better to split the request or the API.
+
+```csharp
+public sealed class ProductSummaryRequest : IInstructable<ProductSummaryRequest.InstructionData>
+{
+    public IList<long> ProductIds { get; set; }
+
+    public InstructionData Instruction { get; set; }
+
+    public sealed class InstructionData
+    {
+        public bool IgnoreInventory { get; set; }
+
+        public bool IncludeDrafts { get; set; }
+    }
+}
+
+// Read the optional instruction in the API.
+// When Instruction is null, use the normal behavior.
+if (request.Instruction?.IgnoreInventory != true)
+{
+    query = query.Include(item => item.Inventory);
+}
+
+if (request.Instruction?.IncludeDrafts != true)
+{
+    query = query.Where(item => item.IsDraft == false);
+}
+```
+
 ### `TextElementString`
 
 Provides text element functions by using the built-in `TextElementEnumerator`.
