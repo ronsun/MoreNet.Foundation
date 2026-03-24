@@ -41,7 +41,7 @@ namespace MoreNet.Foundation.Extensions
         public static IQueryable<T> Paginate<T>(this IQueryable<T> source, IPageable pageable)
         {
             Argument.ShouldNotNull(pageable, nameof(pageable));
-            Argument.ShouldInRange(pageable.PageNumber, 0, int.MaxValue, nameof(pageable.PageNumber));
+            Argument.ShouldInRange(pageable.PageNumber, 1, int.MaxValue, nameof(pageable.PageNumber));
             Argument.ShouldInRange(pageable.PageSize, 1, int.MaxValue, nameof(pageable.PageSize));
 
             checked

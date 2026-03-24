@@ -32,7 +32,7 @@ namespace MoreNet.Foundation.Extensions.Tests
             // arrange
             var mockedQueryable = Substitute.For<IQueryable<string>>();
             var stubIPageable = Substitute.For<IPageable>();
-            stubIPageable.PageNumber.Returns(-1);
+            stubIPageable.PageNumber.Returns(0);
             stubIPageable.PageSize.Returns(1);
 
             // act
