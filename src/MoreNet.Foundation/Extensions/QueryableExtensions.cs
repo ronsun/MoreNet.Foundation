@@ -1,7 +1,7 @@
-﻿using System;
+﻿using MoreNet.Foundation.Conventions;
+using System;
 using System.Linq;
 using System.Linq.Expressions;
-using MoreNet.Foundation.Conventions;
 
 namespace MoreNet.Foundation.Extensions
 {
@@ -49,6 +49,63 @@ namespace MoreNet.Foundation.Extensions
                 int skipCount = (pageable.PageNumber - 1) * pageable.PageSize;
                 return source.Skip(skipCount).Take(pageable.PageSize);
             }
+        }
+
+        /// <summary>
+        /// Applies an order condition and continues with sequential ordering when the query is already ordered.
+        /// </summary>
+        /// <typeparam name="TOrder">The type used to indicate the requested order.</typeparam>
+        /// <typeparam name="TEntity">The type of the elements of query.</typeparam>
+        /// <typeparam name="TProperty">The type of the key returned by <paramref name="keySelector"/>.</typeparam>
+        /// <param name="query">An <see cref="IQueryable{T}"/> to order.</param>
+        /// <param name="orderBy">The requested order value for the current ordering step.</param>
+        /// <param name="keySelector">A function to extract the key used for ordering.</param>
+        /// <param name="isDescending">To indicate whether descending order should be applied for the current ordering step.</param>
+        /// <returns>
+        /// An <see cref="IQueryable{T}"/> ordered by <paramref name="keySelector"/>.
+        /// If <paramref name="query"/> is already ordered, continues with <see cref="Queryable.ThenBy{TSource, TKey}(IOrderedQueryable{TSource}, Expression{Func{TSource, TKey}})"/>
+        /// or <see cref="Queryable.ThenByDescending{TSource, TKey}(IOrderedQueryable{TSource}, Expression{Func{TSource, TKey}})"/>;
+        /// otherwise starts with <see cref="Queryable.OrderBy{TSource, TKey}(IQueryable{TSource}, Expression{Func{TSource, TKey}})"/>
+        /// or <see cref="Queryable.OrderByDescending{TSource, TKey}(IQueryable{TSource}, Expression{Func{TSource, TKey}})"/>.
+        /// </returns>
+        /// <remarks>
+        /// This method is intended to support both single order conditions such as <see cref="IOrderable{T}"/>
+        /// and sequential order conditions such as <see cref="ISequentialOrderable{T}"/>.
+        /// </remarks>
+        public static IQueryable<TEntity> SequentialOrderBy<TOrder, TEntity, TProperty>(
+            this IQueryable<TEntity> query,
+            TOrder orderBy,
+            Expression<Func<TEntity, TProperty>> keySelector,
+            bool isDescending)
+        {
+            var isOrdered = TryGetOrdered<TEntity>(query, out var orderedQuery);
+
+            return isOrdered switch
+            {
+                true when isDescending => orderedQuery.ThenByDescending(keySelector),
+                true => orderedQuery.ThenBy(keySelector),
+                false when isDescending => query.OrderByDescending(keySelector),
+                _ => query.OrderBy(keySelector)
+            };
+        }
+
+        private static bool TryGetOrdered<TEntity>(IQueryable query, out IOrderedQueryable<TEntity> orderedQuery)
+        {
+            var ordered = query.Expression is MethodCallExpression methodCall
+                && (methodCall.Method.Name == nameof(Queryable.OrderBy)
+                    || methodCall.Method.Name == nameof(Queryable.OrderByDescending)
+                    || methodCall.Method.Name == nameof(Queryable.ThenBy)
+                    || methodCall.Method.Name == nameof(Queryable.ThenByDescending));
+            if (ordered)
+            {
+                orderedQuery = (IOrderedQueryable<TEntity>)query;
+            }
+            else
+            {
+                orderedQuery = null;
+            }
+
+            return ordered;
         }
     }
 }
