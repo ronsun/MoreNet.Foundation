@@ -5,11 +5,11 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Interface IOrderable&lt;T&gt; </title>
+      <title>Interface ISequentialOrderable&lt;T&gt; </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Interface IOrderable&lt;T&gt; ">
+      <meta name="title" content="Interface ISequentialOrderable&lt;T&gt; ">
     
-    <meta name="description" content="Convention about order.">
+    <meta name="description" content="Convention about sequentially order.">
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
       <link rel="stylesheet" href="../styles/docfx.css">
@@ -66,19 +66,19 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="MoreNet.Foundation.Conventions.IOrderable`1">
+            <article class="content wrap" id="_content" data-uid="MoreNet.Foundation.Conventions.ISequentialOrderable`1">
 
 
 
-  <h1 id="MoreNet_Foundation_Conventions_IOrderable_1" data-uid="MoreNet.Foundation.Conventions.IOrderable`1" class="text-break">Interface IOrderable&lt;T&gt;</h1>
-  <div class="markdown level0 summary"><p>Convention about order.</p>
+  <h1 id="MoreNet_Foundation_Conventions_ISequentialOrderable_1" data-uid="MoreNet.Foundation.Conventions.ISequentialOrderable`1" class="text-break">Interface ISequentialOrderable&lt;T&gt;</h1>
+  <div class="markdown level0 summary"><p>Convention about sequentially order.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="MoreNet.html">MoreNet</a>.<a class="xref" href="MoreNet.Foundation.html">Foundation</a>.<a class="xref" href="MoreNet.Foundation.Conventions.html">Conventions</a></h6>
   <h6><strong>Assembly</strong>: MoreNet.Foundation.dll</h6>
-  <h5 id="MoreNet_Foundation_Conventions_IOrderable_1_syntax">Syntax</h5>
+  <h5 id="MoreNet_Foundation_Conventions_ISequentialOrderable_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IOrderable&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISequentialOrderable&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -102,19 +102,19 @@ is also appropriate if need to sort a collection of items by multiple properties
 </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Conventions_IOrderable_1_OrderBy.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Conventions.IOrderable%601.OrderBy%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Conventions_ISequentialOrderable_1_SequentialOrderBy.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Conventions.ISequentialOrderable%601.SequentialOrderBy%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Conventions/IOrderable.cs/#L19">View Source</a>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Conventions/ISequentialOrderable.cs/#L20">View Source</a>
   </span>
-  <a id="MoreNet_Foundation_Conventions_IOrderable_1_OrderBy_" data-uid="MoreNet.Foundation.Conventions.IOrderable`1.OrderBy*"></a>
-  <h4 id="MoreNet_Foundation_Conventions_IOrderable_1_OrderBy" data-uid="MoreNet.Foundation.Conventions.IOrderable`1.OrderBy">OrderBy</h4>
-  <div class="markdown level1 summary"><p>Gets or sets types for.</p>
+  <a id="MoreNet_Foundation_Conventions_ISequentialOrderable_1_SequentialOrderBy_" data-uid="MoreNet.Foundation.Conventions.ISequentialOrderable`1.SequentialOrderBy*"></a>
+  <h4 id="MoreNet_Foundation_Conventions_ISequentialOrderable_1_SequentialOrderBy" data-uid="MoreNet.Foundation.Conventions.ISequentialOrderable`1.SequentialOrderBy">SequentialOrderBy</h4>
+  <div class="markdown level1 summary"><p>Gets or sets types for sequential order.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">T OrderBy { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">IList&lt;T&gt; SequentialOrderBy { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-condensed">
@@ -126,7 +126,7 @@ is also appropriate if need to sort a collection of items by multiple properties
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -144,10 +144,10 @@ is also appropriate if need to sort a collection of items by multiple properties
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Conventions_IOrderable_1.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Conventions.IOrderable%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Conventions_ISequentialOrderable_1.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Conventions.ISequentialOrderable%601%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Conventions/IOrderable.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Conventions/ISequentialOrderable.cs/#L14" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
