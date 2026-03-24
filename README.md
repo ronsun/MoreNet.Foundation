@@ -91,6 +91,34 @@ if (request.Instruction?.IncludeDrafts != true)
 }
 ```
 
+### API response
+
+Use `ApiResponse<T>` when many APIs need the same response shape. Without a shared wrapper, common response fields and format often become inconsistent between endpoints. `ApiResponse<T>` keeps the common part in one place, while `T` handles the changing payload. Use `ApiResponse` as a shortcut when the operation returns no data. Manage status values in one constants class to keep them consistent between APIs.
+
+```csharp
+public static class Statuses
+{
+    public const string Success = "Success";
+
+    public const string BadParameters = "BadParameters";
+}
+
+public ApiResponse<ProductSummary> GetProduct(long id)
+{
+    if (id <= 0)
+    {
+        return new ApiResponse(Statuses.BadParameters);
+    }
+
+    return new ApiResponse<ProductSummary>(Statuses.Success, summary);
+}
+
+public ApiResponse DeleteProduct(long id)
+{
+    return new ApiResponse(Statuses.Success);
+}
+```
+
 ### `TextElementString`
 
 Provides text element functions by using the built-in `TextElementEnumerator`.
