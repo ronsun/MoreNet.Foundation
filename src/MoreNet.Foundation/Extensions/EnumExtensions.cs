@@ -29,11 +29,11 @@ namespace MoreNet.Foundation.Extensions
             Type underlyingType = Enum.GetUnderlyingType(typeof(T));
             while (sourceValue >= flagValue)
             {
-                T flag = (T)Convert.ChangeType(flagValue, underlyingType);
-
                 bool hasFlag = (sourceValue & flagValue) == flagValue;
                 if (hasFlag)
                 {
+                    T flag = (T)Convert.ChangeType(flagValue, underlyingType);
+
                     // Has flag but not defined, ex: (Foo.A | 2) has flag 2 but the value 2 is not an item defined in Foo.
                     bool isDefined = Enum.IsDefined(typeof(T), flag);
                     if (!isDefined)
@@ -42,7 +42,6 @@ namespace MoreNet.Foundation.Extensions
                     }
 
                     yield return flag;
-                    sourceValue -= flagValue;
                 }
 
                 flagValue <<= 1;
