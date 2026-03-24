@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{08063B7E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{4C38F8FA-A8C6-470D-9D01-F2C1D19E69B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreNet.Foundation.DocFx", "tools\MoreNet.Foundation.DocFx\MoreNet.Foundation.DocFx.csproj", "{290DDF31-51FB-4A53-9025-3A4C75DBADA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreNet.Foundation.Docfx", "tools\MoreNet.Foundation.Docfx\MoreNet.Foundation.Docfx.csproj", "{290DDF31-51FB-4A53-9025-3A4C75DBADA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreNet.Foundation.Benchmark", "tools\MoreNet.Foundation.Benchmark\MoreNet.Foundation.Benchmark.csproj", "{247CC810-9291-55A5-6398-FDA803207529}"
 EndProject

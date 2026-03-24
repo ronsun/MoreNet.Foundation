@@ -14,7 +14,7 @@
     <RepositoryUrl>https://github.com/ronsun/MoreNet.Foundation</RepositoryUrl>
     <DocumentationFile>obj\Debug\netstandard2.0\MoreNet.Foundation.xml</DocumentationFile>
     <PackageReleaseNotes>+ Add Length property to TextElementString.
-+ Upgrade MoreNet.Foundation.DocFx</PackageReleaseNotes>
++ Upgrade MoreNet.Foundation.Docfx</PackageReleaseNotes>
     <LangVersion>10.0</LangVersion>
   </PropertyGroup>
 
