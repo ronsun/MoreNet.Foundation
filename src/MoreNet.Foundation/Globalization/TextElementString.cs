@@ -14,6 +14,15 @@ namespace MoreNet.Foundation.Globalization
         private List<string> _underlyingTextElements;
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="TextElementString"/> class.
+        /// </summary>
+        /// <param name="value">The string to seek.</param>
+        public TextElementString(string value)
+        {
+            _underlyingTextElements = GenerateTextElements(value);
+        }
+
+        /// <summary>
         /// Gets length of the <see cref="TextElementString"/>.
         /// </summary>
         public int Length
@@ -22,15 +31,6 @@ namespace MoreNet.Foundation.Globalization
             {
                 return _underlyingTextElements.Count;
             }
-        }
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="TextElementString"/> class.
-        /// </summary>
-        /// <param name="value">The string to seek.</param>
-        public TextElementString(string value)
-        {
-            _underlyingTextElements = GenerateTextElements(value);
         }
 
         /// <summary>
@@ -63,7 +63,7 @@ namespace MoreNet.Foundation.Globalization
                 return true;
             }
 
-            foreach (var matching in Matche(value))
+            foreach (var matching in Matches(value))
             {
                 if (matching.MatchFrom.HasValue)
                 {
@@ -90,7 +90,7 @@ namespace MoreNet.Foundation.Globalization
 
             var newUnderlyingTextElements = new List<string>();
             int i = 0;
-            foreach (var matching in Matche(oldValue))
+            foreach (var matching in Matches(oldValue))
             {
                 int matchFrom = matching.MatchFrom ?? _underlyingTextElements.Count;
                 while (i < matchFrom)
@@ -192,7 +192,7 @@ namespace MoreNet.Foundation.Globalization
         }
 
         // Implement KMP algorithm.
-        private IEnumerable<(int? MatchFrom, int Count)> Matche(string pattern)
+        private IEnumerable<(int? MatchFrom, int Count)> Matches(string pattern)
         {
             var patternTextElements = GenerateTextElements(pattern);
             var next = GenerateNext(patternTextElements.ToArray());
@@ -235,7 +235,7 @@ namespace MoreNet.Foundation.Globalization
                 var generated = new int[textElements.Length];
                 generated[0] = 0;
 
-                // prefixIndex also be perfixLength
+                // prefixIndex also be prefixLength
                 int prefixIndex = 0;
                 int suffixIndex = 1;
                 while (suffixIndex < textElements.Length)

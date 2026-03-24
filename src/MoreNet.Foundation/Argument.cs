@@ -8,7 +8,7 @@ namespace MoreNet.Foundation
     /// </summary>
     /// <remarks>
     /// The reason why we use general static methods instead of extension methods is
-    /// it provide better readibility.
+    /// it provide better readability.
     /// </remarks>
     public static class Argument
     {
@@ -69,7 +69,7 @@ namespace MoreNet.Foundation
 
         /// <summary>
         /// Assert argument should be defined enum.
-        /// Throw exception if argement not defined in current enum type.
+        /// Throw exception if argument not defined in current enum type.
         /// </summary>
         /// <typeparam name="TEnum">Type of enum.</typeparam>
         /// <param name="value">Argument value.</param>

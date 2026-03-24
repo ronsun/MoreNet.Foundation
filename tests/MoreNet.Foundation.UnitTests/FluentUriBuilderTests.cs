@@ -129,7 +129,7 @@ namespace MoreNet.Foundation.Tests
         }
 
         [Test()]
-        public void AddQueryTest_AddMupltiple_GetUriSameWithCreatedByUriBuilder()
+        public void AddQueryTest_AddMultiple_GetUriSameWithCreatedByUriBuilder()
         {
             // arrange
             var stubKey1 = "k1";

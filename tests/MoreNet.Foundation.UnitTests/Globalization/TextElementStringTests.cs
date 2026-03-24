@@ -29,11 +29,11 @@ namespace MoreNet.Foundation.Globalization.Tests
         [TestCase("ab", "ab", true)]
         [TestCase("ab", "ba", false)]
         [TestCase("abc", "ac", false)]
-        // regualr, contains
+        // regular, contains
         [TestCase("aeio", "ae", true)]
         [TestCase("aeio", "ei", true)]
         [TestCase("aeio", "io", true)]
-        // regualr, contains with partial match
+        // regular, contains with partial match
         [TestCase("aaaoaaai", "aai", true)]
         [TestCase("aaaoaaai", "aau", false)]
         // grapheme, should not contains
@@ -79,7 +79,7 @@ namespace MoreNet.Foundation.Globalization.Tests
         }
 
         [Test()]
-        // regualr
+        // regular
         [TestCase("")]
         [TestCase(null)]
         [TestCase("aeio")]
@@ -103,7 +103,7 @@ namespace MoreNet.Foundation.Globalization.Tests
         }
 
         [Test()]
-        // regualr
+        // regular
         [TestCase("")]
         [TestCase(null)]
         [TestCase("aeio")]
@@ -111,7 +111,7 @@ namespace MoreNet.Foundation.Globalization.Tests
         [TestCase("a\u0301e\u0301i\u0301o\u0301" /* áéíó */)]
         // mixed alphabets and grapheme in any normalization
         [TestCase("a e\u0301 i\u0301 o\u0301 u\u0301" /* a é í ó ú */)]
-        public void ImplictlyConversionTest_ToString(string stubString)
+        public void ImplicitlyConversionTest_ToString(string stubString)
         {
             // arrange
             var target = new TextElementString(stubString);

@@ -24,7 +24,7 @@ namespace MoreNet.Foundation
         }
 
         /// <summary>
-        /// Gets value of <see cref="UriBuilder.Uri"/> of the adaptee.
+        /// Gets value of <see cref="UriBuilder.Uri"/> of the adapted object.
         /// </summary>
         public Uri Uri
         {
