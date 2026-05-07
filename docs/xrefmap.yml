@@ -101,6 +101,102 @@ references:
   commentId: N:MoreNet.Foundation.Conventions
   fullName: MoreNet.Foundation.Conventions
   nameWithType: MoreNet.Foundation.Conventions
+- uid: MoreNet.Foundation.Conventions.ApiResponse
+  name: ApiResponse
+  href: api/MoreNet.Foundation.Conventions.ApiResponse.html
+  commentId: T:MoreNet.Foundation.Conventions.ApiResponse
+  fullName: MoreNet.Foundation.Conventions.ApiResponse
+  nameWithType: ApiResponse
+- uid: MoreNet.Foundation.Conventions.ApiResponse.#ctor(System.String)
+  name: ApiResponse(string)
+  href: api/MoreNet.Foundation.Conventions.ApiResponse.html#MoreNet_Foundation_Conventions_ApiResponse__ctor_System_String_
+  commentId: M:MoreNet.Foundation.Conventions.ApiResponse.#ctor(System.String)
+  name.vb: New(String)
+  fullName: MoreNet.Foundation.Conventions.ApiResponse.ApiResponse(string)
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse.New(String)
+  nameWithType: ApiResponse.ApiResponse(string)
+  nameWithType.vb: ApiResponse.New(String)
+- uid: MoreNet.Foundation.Conventions.ApiResponse.#ctor*
+  name: ApiResponse
+  href: api/MoreNet.Foundation.Conventions.ApiResponse.html#MoreNet_Foundation_Conventions_ApiResponse__ctor_
+  commentId: Overload:MoreNet.Foundation.Conventions.ApiResponse.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MoreNet.Foundation.Conventions.ApiResponse.ApiResponse
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse.New
+  nameWithType: ApiResponse.ApiResponse
+  nameWithType.vb: ApiResponse.New
+- uid: MoreNet.Foundation.Conventions.ApiResponse`1
+  name: ApiResponse<T>
+  href: api/MoreNet.Foundation.Conventions.ApiResponse-1.html
+  commentId: T:MoreNet.Foundation.Conventions.ApiResponse`1
+  name.vb: ApiResponse(Of T)
+  fullName: MoreNet.Foundation.Conventions.ApiResponse<T>
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse(Of T)
+  nameWithType: ApiResponse<T>
+  nameWithType.vb: ApiResponse(Of T)
+- uid: MoreNet.Foundation.Conventions.ApiResponse`1.#ctor(System.String)
+  name: ApiResponse(string)
+  href: api/MoreNet.Foundation.Conventions.ApiResponse-1.html#MoreNet_Foundation_Conventions_ApiResponse_1__ctor_System_String_
+  commentId: M:MoreNet.Foundation.Conventions.ApiResponse`1.#ctor(System.String)
+  name.vb: New(String)
+  fullName: MoreNet.Foundation.Conventions.ApiResponse<T>.ApiResponse(string)
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse(Of T).New(String)
+  nameWithType: ApiResponse<T>.ApiResponse(string)
+  nameWithType.vb: ApiResponse(Of T).New(String)
+- uid: MoreNet.Foundation.Conventions.ApiResponse`1.#ctor(System.String,`0)
+  name: ApiResponse(string, T)
+  href: api/MoreNet.Foundation.Conventions.ApiResponse-1.html#MoreNet_Foundation_Conventions_ApiResponse_1__ctor_System_String__0_
+  commentId: M:MoreNet.Foundation.Conventions.ApiResponse`1.#ctor(System.String,`0)
+  name.vb: New(String, T)
+  fullName: MoreNet.Foundation.Conventions.ApiResponse<T>.ApiResponse(string, T)
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse(Of T).New(String, T)
+  nameWithType: ApiResponse<T>.ApiResponse(string, T)
+  nameWithType.vb: ApiResponse(Of T).New(String, T)
+- uid: MoreNet.Foundation.Conventions.ApiResponse`1.#ctor*
+  name: ApiResponse
+  href: api/MoreNet.Foundation.Conventions.ApiResponse-1.html#MoreNet_Foundation_Conventions_ApiResponse_1__ctor_
+  commentId: Overload:MoreNet.Foundation.Conventions.ApiResponse`1.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: MoreNet.Foundation.Conventions.ApiResponse<T>.ApiResponse
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse(Of T).New
+  nameWithType: ApiResponse<T>.ApiResponse
+  nameWithType.vb: ApiResponse(Of T).New
+- uid: MoreNet.Foundation.Conventions.ApiResponse`1.Data
+  name: Data
+  href: api/MoreNet.Foundation.Conventions.ApiResponse-1.html#MoreNet_Foundation_Conventions_ApiResponse_1_Data
+  commentId: P:MoreNet.Foundation.Conventions.ApiResponse`1.Data
+  fullName: MoreNet.Foundation.Conventions.ApiResponse<T>.Data
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse(Of T).Data
+  nameWithType: ApiResponse<T>.Data
+  nameWithType.vb: ApiResponse(Of T).Data
+- uid: MoreNet.Foundation.Conventions.ApiResponse`1.Data*
+  name: Data
+  href: api/MoreNet.Foundation.Conventions.ApiResponse-1.html#MoreNet_Foundation_Conventions_ApiResponse_1_Data_
+  commentId: Overload:MoreNet.Foundation.Conventions.ApiResponse`1.Data
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Conventions.ApiResponse<T>.Data
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse(Of T).Data
+  nameWithType: ApiResponse<T>.Data
+  nameWithType.vb: ApiResponse(Of T).Data
+- uid: MoreNet.Foundation.Conventions.ApiResponse`1.Status
+  name: Status
+  href: api/MoreNet.Foundation.Conventions.ApiResponse-1.html#MoreNet_Foundation_Conventions_ApiResponse_1_Status
+  commentId: P:MoreNet.Foundation.Conventions.ApiResponse`1.Status
+  fullName: MoreNet.Foundation.Conventions.ApiResponse<T>.Status
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse(Of T).Status
+  nameWithType: ApiResponse<T>.Status
+  nameWithType.vb: ApiResponse(Of T).Status
+- uid: MoreNet.Foundation.Conventions.ApiResponse`1.Status*
+  name: Status
+  href: api/MoreNet.Foundation.Conventions.ApiResponse-1.html#MoreNet_Foundation_Conventions_ApiResponse_1_Status_
+  commentId: Overload:MoreNet.Foundation.Conventions.ApiResponse`1.Status
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Conventions.ApiResponse<T>.Status
+  fullName.vb: MoreNet.Foundation.Conventions.ApiResponse(Of T).Status
+  nameWithType: ApiResponse<T>.Status
+  nameWithType.vb: ApiResponse(Of T).Status
 - uid: MoreNet.Foundation.Conventions.IConfigurable`1
   name: IConfigurable<TConfiguration>
   href: api/MoreNet.Foundation.Conventions.IConfigurable-1.html
@@ -127,6 +223,32 @@ references:
   fullName.vb: MoreNet.Foundation.Conventions.IConfigurable(Of TConfiguration).Configuration
   nameWithType: IConfigurable<TConfiguration>.Configuration
   nameWithType.vb: IConfigurable(Of TConfiguration).Configuration
+- uid: MoreNet.Foundation.Conventions.IInstructable`1
+  name: IInstructable<TInstruction>
+  href: api/MoreNet.Foundation.Conventions.IInstructable-1.html
+  commentId: T:MoreNet.Foundation.Conventions.IInstructable`1
+  name.vb: IInstructable(Of TInstruction)
+  fullName: MoreNet.Foundation.Conventions.IInstructable<TInstruction>
+  fullName.vb: MoreNet.Foundation.Conventions.IInstructable(Of TInstruction)
+  nameWithType: IInstructable<TInstruction>
+  nameWithType.vb: IInstructable(Of TInstruction)
+- uid: MoreNet.Foundation.Conventions.IInstructable`1.Instruction
+  name: Instruction
+  href: api/MoreNet.Foundation.Conventions.IInstructable-1.html#MoreNet_Foundation_Conventions_IInstructable_1_Instruction
+  commentId: P:MoreNet.Foundation.Conventions.IInstructable`1.Instruction
+  fullName: MoreNet.Foundation.Conventions.IInstructable<TInstruction>.Instruction
+  fullName.vb: MoreNet.Foundation.Conventions.IInstructable(Of TInstruction).Instruction
+  nameWithType: IInstructable<TInstruction>.Instruction
+  nameWithType.vb: IInstructable(Of TInstruction).Instruction
+- uid: MoreNet.Foundation.Conventions.IInstructable`1.Instruction*
+  name: Instruction
+  href: api/MoreNet.Foundation.Conventions.IInstructable-1.html#MoreNet_Foundation_Conventions_IInstructable_1_Instruction_
+  commentId: Overload:MoreNet.Foundation.Conventions.IInstructable`1.Instruction
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Conventions.IInstructable<TInstruction>.Instruction
+  fullName.vb: MoreNet.Foundation.Conventions.IInstructable(Of TInstruction).Instruction
+  nameWithType: IInstructable<TInstruction>.Instruction
+  nameWithType.vb: IInstructable(Of TInstruction).Instruction
 - uid: MoreNet.Foundation.Conventions.IOrderable`1
   name: IOrderable<T>
   href: api/MoreNet.Foundation.Conventions.IOrderable-1.html
@@ -217,6 +339,393 @@ references:
   commentId: N:MoreNet.Foundation.Extensions
   fullName: MoreNet.Foundation.Extensions
   nameWithType: MoreNet.Foundation.Extensions
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions
+  name: DataRecordExtensions
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html
+  commentId: T:MoreNet.Foundation.Extensions.DataRecordExtensions
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions
+  nameWithType: DataRecordExtensions
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean(System.Data.IDataRecord,System.String)
+  name: GetBoolean(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetBoolean_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean(System.Data.IDataRecord,System.String)
+  name.vb: GetBoolean(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetBoolean(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetBoolean(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean*
+  name: GetBoolean
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetBoolean_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean
+  nameWithType: DataRecordExtensions.GetBoolean
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar(System.Data.IDataRecord,System.String)
+  name: GetChar(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetChar_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar(System.Data.IDataRecord,System.String)
+  name.vb: GetChar(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetChar(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetChar(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar*
+  name: GetChar
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetChar_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar
+  nameWithType: DataRecordExtensions.GetChar
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime(System.Data.IDataRecord,System.String)
+  name: GetDateTime(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetDateTime_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime(System.Data.IDataRecord,System.String)
+  name.vb: GetDateTime(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetDateTime(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetDateTime(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime*
+  name: GetDateTime
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetDateTime_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime
+  nameWithType: DataRecordExtensions.GetDateTime
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal(System.Data.IDataRecord,System.String)
+  name: GetDecimal(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetDecimal_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal(System.Data.IDataRecord,System.String)
+  name.vb: GetDecimal(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetDecimal(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetDecimal(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal*
+  name: GetDecimal
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetDecimal_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal
+  nameWithType: DataRecordExtensions.GetDecimal
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble(System.Data.IDataRecord,System.String)
+  name: GetDouble(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetDouble_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble(System.Data.IDataRecord,System.String)
+  name.vb: GetDouble(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetDouble(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetDouble(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble*
+  name: GetDouble
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetDouble_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble
+  nameWithType: DataRecordExtensions.GetDouble
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat(System.Data.IDataRecord,System.String)
+  name: GetFloat(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetFloat_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat(System.Data.IDataRecord,System.String)
+  name.vb: GetFloat(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetFloat(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetFloat(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat*
+  name: GetFloat
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetFloat_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat
+  nameWithType: DataRecordExtensions.GetFloat
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid(System.Data.IDataRecord,System.String)
+  name: GetGuid(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetGuid_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid(System.Data.IDataRecord,System.String)
+  name.vb: GetGuid(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetGuid(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetGuid(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid*
+  name: GetGuid
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetGuid_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid
+  nameWithType: DataRecordExtensions.GetGuid
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16(System.Data.IDataRecord,System.String)
+  name: GetInt16(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt16_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16(System.Data.IDataRecord,System.String)
+  name.vb: GetInt16(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetInt16(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetInt16(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16*
+  name: GetInt16
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt16_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16
+  nameWithType: DataRecordExtensions.GetInt16
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32(System.Data.IDataRecord,System.String)
+  name: GetInt32(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt32_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32(System.Data.IDataRecord,System.String)
+  name.vb: GetInt32(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetInt32(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetInt32(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32*
+  name: GetInt32
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt32_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32
+  nameWithType: DataRecordExtensions.GetInt32
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64(System.Data.IDataRecord,System.String)
+  name: GetInt64(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt64_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64(System.Data.IDataRecord,System.String)
+  name.vb: GetInt64(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetInt64(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetInt64(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64*
+  name: GetInt64
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt64_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64
+  nameWithType: DataRecordExtensions.GetInt64
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetName(System.Data.IDataRecord,System.Int32)
+  name: GetName(IDataRecord, int)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetName_System_Data_IDataRecord_System_Int32_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetName(System.Data.IDataRecord,System.Int32)
+  name.vb: GetName(IDataRecord, Integer)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetName(System.Data.IDataRecord, int)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetName(System.Data.IDataRecord, Integer)
+  nameWithType: DataRecordExtensions.GetName(IDataRecord, int)
+  nameWithType.vb: DataRecordExtensions.GetName(IDataRecord, Integer)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetName*
+  name: GetName
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetName_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetName
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetName
+  nameWithType: DataRecordExtensions.GetName
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames(System.Data.IDataRecord)
+  name: GetNames(IDataRecord)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNames_System_Data_IDataRecord_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames(System.Data.IDataRecord)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames(System.Data.IDataRecord)
+  nameWithType: DataRecordExtensions.GetNames(IDataRecord)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames*
+  name: GetNames
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNames_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames
+  nameWithType: DataRecordExtensions.GetNames
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean(System.Data.IDataRecord,System.String)
+  name: GetNullableBoolean(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableBoolean_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableBoolean(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableBoolean(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableBoolean(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean*
+  name: GetNullableBoolean
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableBoolean_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean
+  nameWithType: DataRecordExtensions.GetNullableBoolean
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar(System.Data.IDataRecord,System.String)
+  name: GetNullableChar(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableChar_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableChar(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableChar(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableChar(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar*
+  name: GetNullableChar
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableChar_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar
+  nameWithType: DataRecordExtensions.GetNullableChar
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime(System.Data.IDataRecord,System.String)
+  name: GetNullableDateTime(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDateTime_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableDateTime(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableDateTime(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableDateTime(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime*
+  name: GetNullableDateTime
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDateTime_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime
+  nameWithType: DataRecordExtensions.GetNullableDateTime
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal(System.Data.IDataRecord,System.String)
+  name: GetNullableDecimal(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDecimal_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableDecimal(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableDecimal(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableDecimal(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal*
+  name: GetNullableDecimal
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDecimal_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal
+  nameWithType: DataRecordExtensions.GetNullableDecimal
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble(System.Data.IDataRecord,System.String)
+  name: GetNullableDouble(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDouble_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableDouble(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableDouble(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableDouble(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble*
+  name: GetNullableDouble
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDouble_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble
+  nameWithType: DataRecordExtensions.GetNullableDouble
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat(System.Data.IDataRecord,System.String)
+  name: GetNullableFloat(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableFloat_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableFloat(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableFloat(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableFloat(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat*
+  name: GetNullableFloat
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableFloat_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat
+  nameWithType: DataRecordExtensions.GetNullableFloat
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid(System.Data.IDataRecord,System.String)
+  name: GetNullableGuid(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableGuid_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableGuid(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableGuid(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableGuid(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid*
+  name: GetNullableGuid
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableGuid_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid
+  nameWithType: DataRecordExtensions.GetNullableGuid
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16(System.Data.IDataRecord,System.String)
+  name: GetNullableInt16(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt16_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableInt16(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableInt16(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableInt16(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16*
+  name: GetNullableInt16
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt16_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16
+  nameWithType: DataRecordExtensions.GetNullableInt16
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32(System.Data.IDataRecord,System.String)
+  name: GetNullableInt32(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt32_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableInt32(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableInt32(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableInt32(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32*
+  name: GetNullableInt32
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt32_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32
+  nameWithType: DataRecordExtensions.GetNullableInt32
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64(System.Data.IDataRecord,System.String)
+  name: GetNullableInt64(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt64_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64(System.Data.IDataRecord,System.String)
+  name.vb: GetNullableInt64(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetNullableInt64(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetNullableInt64(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64*
+  name: GetNullableInt64
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt64_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64
+  nameWithType: DataRecordExtensions.GetNullableInt64
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetString(System.Data.IDataRecord,System.String)
+  name: GetString(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetString_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetString(System.Data.IDataRecord,System.String)
+  name.vb: GetString(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetString(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetString(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetString(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetString(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetString*
+  name: GetString
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetString_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetString
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetString
+  nameWithType: DataRecordExtensions.GetString
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue(System.Data.IDataRecord,System.String)
+  name: GetValue(IDataRecord, string)
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetValue_System_Data_IDataRecord_System_String_
+  commentId: M:MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue(System.Data.IDataRecord,System.String)
+  name.vb: GetValue(IDataRecord, String)
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue(System.Data.IDataRecord, string)
+  fullName.vb: MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue(System.Data.IDataRecord, String)
+  nameWithType: DataRecordExtensions.GetValue(IDataRecord, string)
+  nameWithType.vb: DataRecordExtensions.GetValue(IDataRecord, String)
+- uid: MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue*
+  name: GetValue
+  href: api/MoreNet.Foundation.Extensions.DataRecordExtensions.html#MoreNet_Foundation_Extensions_DataRecordExtensions_GetValue_
+  commentId: Overload:MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue
+  isSpec: "True"
+  fullName: MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue
+  nameWithType: DataRecordExtensions.GetValue
 - uid: MoreNet.Foundation.Extensions.EnumExtensions
   name: EnumExtensions
   href: api/MoreNet.Foundation.Extensions.EnumExtensions.html

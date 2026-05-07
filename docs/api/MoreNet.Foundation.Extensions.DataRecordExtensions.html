@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class DataRecordExtensions </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class DataRecordExtensions ">
+    
+    <meta name="description" content="Extensions for .">
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions">
+
+
+
+  <h1 id="MoreNet_Foundation_Extensions_DataRecordExtensions" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions" class="text-break">Class DataRecordExtensions</h1>
+  <div class="markdown level0 summary"><p>Extensions for <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">DataRecordExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="MoreNet.html">MoreNet</a>.<a class="xref" href="MoreNet.Foundation.html">Foundation</a>.<a class="xref" href="MoreNet.Foundation.Extensions.html">Extensions</a></h6>
+  <h6><strong>Assembly</strong>: MoreNet.Foundation.dll</h6>
+  <h5 id="MoreNet_Foundation_Extensions_DataRecordExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DataRecordExtensions</code></pre>
+  </div>
+  <h5 id="MoreNet_Foundation_Extensions_DataRecordExtensions_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Each data type has its own dedicated method instead of using a generic approach.
+A generic method would be 15-40% slower due to runtime type checking, boxing/unboxing overhead, and reduced JIT optimization.
+See benchmark: <code>tools\MoreNet.Foundation.Benchmark\Extensions\DataRecordExtensionsBenchmark.cs</code></p>
+</div>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetBoolean_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L23">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetBoolean_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetBoolean_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetBoolean(System.Data.IDataRecord,System.String)">GetBoolean(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool GetBoolean(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetChar_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L46">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetChar_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetChar_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetChar(System.Data.IDataRecord,System.String)">GetChar(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static char GetChar(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetDateTime_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L69">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetDateTime_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetDateTime_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetDateTime(System.Data.IDataRecord,System.String)">GetDateTime(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime GetDateTime(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetDecimal_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L92">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetDecimal_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetDecimal_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetDecimal(System.Data.IDataRecord,System.String)">GetDecimal(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal GetDecimal(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetDouble_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L115">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetDouble_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetDouble_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetDouble(System.Data.IDataRecord,System.String)">GetDouble(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GetDouble(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetFloat_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L138">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetFloat_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetFloat_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetFloat(System.Data.IDataRecord,System.String)">GetFloat(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetFloat(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetGuid_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L161">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetGuid_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetGuid_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetGuid(System.Data.IDataRecord,System.String)">GetGuid(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Guid GetGuid(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt16_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L184">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt16_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt16_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt16(System.Data.IDataRecord,System.String)">GetInt16(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static short GetInt16(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt32_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L207">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt32_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt32_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt32(System.Data.IDataRecord,System.String)">GetInt32(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetInt32(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt64_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L230">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt64_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetInt64_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetInt64(System.Data.IDataRecord,System.String)">GetInt64(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long GetInt64(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetName_System_Data_IDataRecord_System_Int32_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetName(System.Data.IDataRecord%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L275">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetName_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetName*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetName_System_Data_IDataRecord_System_Int32_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetName(System.Data.IDataRecord,System.Int32)">GetName(IDataRecord, int)</h4>
+  <div class="markdown level1 summary"><p>Gets the name for the field to find.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetName(this IDataRecord record, int ordinal)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">ordinal</span></td>
+        <td><p>The zero-based column ordinal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The name of the field or an empty string if there is no value to return.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNames_System_Data_IDataRecord_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames(System.Data.IDataRecord)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L285">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNames_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNames_System_Data_IDataRecord_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNames(System.Data.IDataRecord)">GetNames(IDataRecord)</h4>
+  <div class="markdown level1 summary"><p>Gets all the attribute fields in the collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; GetNames(this IDataRecord record)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>&gt;</td>
+        <td><p>An array of field names.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableBoolean_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L34">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableBoolean_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableBoolean_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableBoolean(System.Data.IDataRecord,System.String)">GetNullableBoolean(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool? GetNullableBoolean(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">bool</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableChar_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L57">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableChar_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableChar_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableChar(System.Data.IDataRecord,System.String)">GetNullableChar(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static char? GetNullableChar(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.char">char</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDateTime_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L80">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDateTime_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDateTime_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDateTime(System.Data.IDataRecord,System.String)">GetNullableDateTime(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DateTime? GetNullableDateTime(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.datetime">DateTime</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDecimal_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L103">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDecimal_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDecimal_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDecimal(System.Data.IDataRecord,System.String)">GetNullableDecimal(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal? GetNullableDecimal(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.decimal">decimal</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDouble_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L126">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDouble_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableDouble_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableDouble(System.Data.IDataRecord,System.String)">GetNullableDouble(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double? GetNullableDouble(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableFloat_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L149">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableFloat_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableFloat_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableFloat(System.Data.IDataRecord,System.String)">GetNullableFloat(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float? GetNullableFloat(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">float</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableGuid_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L172">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableGuid_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableGuid_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableGuid(System.Data.IDataRecord,System.String)">GetNullableGuid(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Guid? GetNullableGuid(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.guid">Guid</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt16_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L195">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt16_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt16_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt16(System.Data.IDataRecord,System.String)">GetNullableInt16(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static short? GetNullableInt16(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int16">short</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt32_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L218">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt32_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt32_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt32(System.Data.IDataRecord,System.String)">GetNullableInt32(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int? GetNullableInt32(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt64_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L241">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt64_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetNullableInt64_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetNullableInt64(System.Data.IDataRecord,System.String)">GetNullableInt64(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long? GetNullableInt64(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>?</td>
+        <td><p>The value of the specified column as a nullable <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int64">long</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetString_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetString(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L253">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetString_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetString*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetString_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetString(System.Data.IDataRecord,System.String)">GetString(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GetString(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>The value of the specified column as a <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions_GetValue_System_Data_IDataRecord_System_String_.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue(System.Data.IDataRecord%2CSystem.String)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Edit this page</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L264">View Source</a>
+  </span>
+  <a id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetValue_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue*"></a>
+  <h4 id="MoreNet_Foundation_Extensions_DataRecordExtensions_GetValue_System_Data_IDataRecord_System_String_" data-uid="MoreNet.Foundation.Extensions.DataRecordExtensions.GetValue(System.Data.IDataRecord,System.String)">GetValue(IDataRecord, string)</h4>
+  <div class="markdown level1 summary"><p>Gets the value of the specified column as an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static object GetValue(this IDataRecord record, string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.data.idatarecord">IDataRecord</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The data record.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the column.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></td>
+        <td><p>The value of the specified column as an <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ronsun/MoreNet.Foundation/new/master/apiSpec/new?filename=MoreNet_Foundation_Extensions_DataRecordExtensions.md&amp;value=---%0Auid%3A%20MoreNet.Foundation.Extensions.DataRecordExtensions%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Edit this page</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ronsun/MoreNet.Foundation/blob/master/src/MoreNet.Foundation/Extensions/DataRecordExtensions.cs/#L15" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In this article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.min.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
