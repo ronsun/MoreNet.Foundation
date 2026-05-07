@@ -7,7 +7,8 @@ namespace MoreNet.Foundation.PerformanceTests
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run<StringExtensionsBenchmark>();
+            // BenchmarkRunner.Run<StringExtensionsBenchmark>();
+            BenchmarkRunner.Run<DataRecordExtensionsBenchmark>();
         }
     }
 }
